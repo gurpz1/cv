@@ -1,0 +1,229 @@
+{
+    "awards": [],
+    "basics": {
+        "email": "info@gurpalsagoo.com",
+        "label": "Technologist",
+        "location": {
+            "address": "",
+            "city": "London",
+            "countryCode": "UK",
+            "postalCode": "",
+            "region": "South East"
+        },
+        "name": "Gurpal Sagoo",
+        "phone": "",
+        "picture": "",
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gsagoo/",
+                "username": "gsagoo"
+            }
+        ],
+        "summary": "A summary of John Doe...",
+        "website": "http://gurpalsagoo.com"
+    },
+    "education": [
+        {
+            "area": "Physics",
+            "courses": [],
+            "endDate": "2008-09-01",
+            "institution": "University College London",
+            "startDate": "2012-06-01",
+            "studyType": "MSci"
+        },
+        {
+            "area": "Mathematics, Physics, Biology",
+            "courses": [],
+            "endDate": "2006-06-01",
+            "institution": "Havering Sixth Form College",
+            "startDate": "2008-09-01",
+            "studyType": "A Levels"
+        },
+        {
+            "area": "Further Mathematics, Chemistry, ICT",
+            "courses": [],
+            "endDate": "2006-06-01",
+            "institution": "Havering Sixth Form College",
+            "startDate": "2008-09-01",
+            "studyType": "AS Levels"
+        }
+    ],
+    "interests": [
+        {
+            "keywords": [],
+            "name": "Wildlife"
+        }
+    ],
+    "languages": [
+        {
+            "fluency": "Native",
+            "language": "English"
+        },
+        {
+            "fluency": "Intermediate",
+            "language": "Punjabi"
+        }
+    ],
+    "projects": [
+        {
+            "description": "Push PC racing game data to an unmodified dashboard using an Arduino.",
+            "endDate": "2012-01-01",
+            "entity": "",
+            "highlights": [
+                "Designed circuit diagram for shift lights/tft screen",
+                "Modified PC power supply to power dashboard and lights",
+                "Gained understanding of CANBus"
+            ],
+            "keywords": [
+                "Arduino",
+                "CANBus",
+                "C++",
+                "Cars",
+                "Instrument Cluster",
+                "Embedded System"
+            ],
+            "name": "Hacking a Car Instrument Cluster",
+            "roles": [
+                "Developer"
+            ],
+            "startDate": "2012-02-01",
+            "type": "hardware",
+            "url": "https://youtu.be/LToDmIY6j2s"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Magnetism in Copper Chloride Graphite Intercalation Compounds",
+            "publisher": "",
+            "releaseDate": "2012-04-01",
+            "summary": "Anhydrous copper (II) chloride was attempted to be intercalated in order to create controlled staging by annealing Madagascan natural flake graphite with copper (II) chloride powder in a low pressure, high temperature environment.",
+            "website": ""
+        }
+    ],
+    "references": [
+        {
+            "name": "Various",
+            "reference": "Available on request..."
+        }
+    ],
+    "skills": [
+        {
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "level": "Master",
+            "name": "Web Development"
+        }
+    ],
+    "volunteer": [
+        {
+            "endDate": "2014-02-01",
+            "highlights": [
+                "Mentee launched his own website and help guide his university choice and application"
+            ],
+            "organization": "UBS",
+            "position": "Tutoring/Mentoring",
+            "startDate": "2012-10-01",
+            "summary": "Assisted with A Level Physics tutoring at the Bridge Academy and mentored a 17 year old throughout A Levels",
+            "website": ""
+        },
+        {
+            "endDate": "2014-06-01",
+            "highlights": [
+                "Apart of the Organising Committee"
+            ],
+            "organization": "UBS",
+            "position": "IT Shoreditch Games",
+            "startDate": "2014-01-01",
+            "summary": "Hackney school children compete with one another in a variety of interesting sports.",
+            "website": ""
+        },
+        {
+            "endDate": "2013-07-01",
+            "highlights": [
+                "Apart of the Organising Committee."
+            ],
+            "organization": "UBS",
+            "position": "GTPNet",
+            "startDate": "2013-01-01",
+            "summary": "Networking event consisting of UBS Champions with old and new graduates.",
+            "website": ""
+        },
+        {
+            "endDate": "2011-06-01",
+            "highlights": [
+                "Added new events to the racing calendar"
+            ],
+            "organization": "University College London Union",
+            "position": "Karting Society President",
+            "startDate": "2010-06-01",
+            "summary": "UCL's only motorsport society",
+            "website": ""
+        }
+    ],
+    "work": [
+        {
+            "company": "UBS",
+            "endDate": "2015-05-01",
+            "highlights": [
+                "Delvered a new client side web app, including choosing a JS framework, templating engine, building environment and deployment scripts leveraging AngularJS, Make, NodeJS, Grunt and Bower.",
+                "Took sole ownership of re-engineering a custom Excel add-in from scratch to concurrently load data from a database via User Defined Functions.",
+                "Developed Sybase database views and stored procedures for the department’s RESTFul API.",
+                "Developed ‘system resource viewer’ in order to determine correct Linux Control Group parameters for the department.",
+                "Took ownership of production issues, managing releases and dealing with ad-hoc data queries from business users."
+            ],
+            "position": "Developer",
+            "startDate": "2013-10-01",
+            "summary": "Responsible for the delivery of greenfield applications utilising many different technologies within 'Advisory and Research IT'",
+            "website": "https://www.ubs.com"
+        },
+        {
+            "company": "UBS",
+            "endDate": "2013-10-01",
+            "highlights": [
+                "Placement started with 6 weeks intensive training covering the essentials of financial markets and technical training.",
+                "Responsible for regional change projects, audit remediation, incident management, testing disaster recovery across EMEA within Unix/Linux environment and often supporting Global change projects.",
+                "Developed various BASH scripts and Google Chrome extensions to speed up work.",
+                "Gained operational working knowledge with Red Hat Enterprise Linux 5+, Solaris 8+, enterprise storage, networking and OS performance analysis."
+            ],
+            "position": "Unix Systems Administrator",
+            "startDate": "2012-09-01",
+            "summary": "Graduate Training Programme beginning with placement in 'Platform Services - Unix Service Delivery'",
+            "website": "https://www.ubs.com"
+        },
+        {
+            "company": "UBS",
+            "endDate": "2011-06-01",
+            "highlights": [
+                "Programmed, tested and released a filtering system for an existing JAVA based online application release calendar.",
+                "Created, tested and implemented segregation system for Log4j filters; thus preventing existing filters being overwritten in future releases.",
+                "Advanced knowledge in Bash scripting, HTML, JAVA and JSP technologies."
+            ],
+            "position": "Intern",
+            "startDate": "2011-09-01",
+            "summary": "6 week technical internship within 'Clearing & Settlement IT Production Services'",
+            "website": "https://www.ubs.com"
+        },
+        {
+            "company": "Primark",
+            "endDate": "2012-04-01",
+            "highlights": [],
+            "position": "Retail Operative",
+            "startDate": "2009-10-01",
+            "summary": "",
+            "website": "https://www.primark.com"
+        },
+        {
+            "company": "University College London",
+            "endDate": "2010-01-01",
+            "highlights": [],
+            "position": "Transition Mentor",
+            "startDate": "2009-09-01",
+            "summary": "Guided a group of first year undergraduates who had just started their degrees to ease their transition into university.",
+            "website": "https://www.ucl.ac.uk"
+        }
+    ]
+}
