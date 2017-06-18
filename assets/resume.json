@@ -227,7 +227,7 @@
             "company": "G-Research",
             "endDate": "",
             "highlights": [
-                "Designed, developed and delivered a report monitoring portal leverging C# WebAPI and AngularJS.",
+                "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS.",
                 "Automated the allocation of services across our service estate allowing for maximum use of hardware.",
                 "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries."
             ],
