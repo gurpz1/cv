@@ -2,6 +2,7 @@ var gulp=require("gulp");
 var plugins=require("gulp-load-plugins")();
 var bowerFiles =require("main-bower-files");
 var path = require("path");
+var fs = require("fs");
 
 var paths = {
     src: {
@@ -202,6 +203,12 @@ gulp.task("build-prod",[
     ]
 );
 gulp.task("deploy", ["build-prod"], function () {
+    fs.writeFile(paths.dist.dir + "/CNAME", "gurpalsagoo.com", function(err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Written CNAME");
+    });
     return gulp.src(paths.dist.dir + "/**/*")
         .pipe(plugins.ghPages());
 });
