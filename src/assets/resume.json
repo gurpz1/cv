@@ -224,10 +224,24 @@
     ],
     "work": [
         {
+            "company": "G-Research",
+            "endDate": "",
+            "highlights": [
+                "Designed, developed and delivered a report monitoring portal leverging C# WebAPI and AngularJS.",
+                "Automated the allocation of services across our service estate allowing for maximum use of hardware.",
+                "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries."
+            ],
+            "position": "Technical Operations Analyst",
+            "startDate": "2015-06-01",
+            "summary": "Responsible production trading environment",
+            "website": "http://www.gresearch.co.uk",
+            "picture": "assets/gresearch_logo.png"
+        },
+        {
             "company": "UBS",
             "endDate": "2015-05-01",
             "highlights": [
-                "Delvered a new client side web app, including choosing a JS framework, templating engine, building environment and deployment scripts leveraging AngularJS, Make, NodeJS, Grunt and Bower.",
+                "Delivered a new client side web app, including choosing a JS framework, templating engine, building environment and deployment scripts leveraging AngularJS, Make, NodeJS, Grunt and Bower.",
                 "Took sole ownership of re-engineering a custom Excel add-in from scratch to concurrently load data from a database via User Defined Functions.",
                 "Developed Sybase database views and stored procedures for the department’s RESTFul API.",
                 "Developed ‘system resource viewer’ in order to determine correct Linux Control Group parameters for the department.",
