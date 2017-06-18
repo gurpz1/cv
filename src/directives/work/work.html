@@ -28,12 +28,11 @@
 						{{job.startDate | date:'MMM yyyy'}} - {{job.endDate | date:'MMM yyyy'}} 
 					</div>
 				</div>
-				<p 
-					flex='100'
-					ng-if="job.highlights.length > 0"
-					class="md-body-1">
-					{{job.highlights.join(' ')}}
-				</p>
+				<md-list>
+					<md-list-item ng-repeat="highlight in job.highlights">
+						<span class="md-body-1">&bull; {{highlight}} </span>
+					</md-list-item>
+				</md-list>
 				<md-divider ng-if="!$last"></md-divider>
 			</div>
 		</div>
