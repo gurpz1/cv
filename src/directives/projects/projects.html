@@ -1,0 +1,33 @@
+<md-card md-theme='defaults'>
+	<md-card-content>
+		<div layout-xs="column" flex-xs layout-margin>
+			<div flex="100">	
+				<md-icon  class="mdi-36px" md-svg-icon='ghost'></md-icon>
+			 	<span class="md-headline" style="vertical-align: bottom;">Projects</span>
+			</div>
+			<div flex="100" ng-repeat="project in projects">
+				<div layout="row" layout-xs="column" layout-align="end center">
+					<div layout="column" flex flex-order="1">
+						<div class="md-body-2" flex> {{project.name}}</div>
+						<div class="md-caption" flex> {{project.description}}</div>
+						<a class="md-caption" ng-href="{{project.url}}">{{project.url}}</a>
+					</div>
+					<div 
+						class="md-body-1" 
+						flex-xs="100" 
+						flex-order="2" 
+						layout-padding>
+						{{project.endDate | date:'MMM yyyy'}} 
+					</div>
+				</div>
+				<p 
+					flex="100"
+					ng-if="project.highlights.length > 0"
+					class="md-body-1">
+					{{project.highlights.join(' ')}}
+				</p>
+				<md-chips ng-model="project.keywords" readonly="true"></md-chips>
+			</div>
+		</div>
+	</md-card-content>
+</md-card>

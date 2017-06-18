@@ -1,0 +1,23 @@
+<md-card md-theme='defaults'>
+	<md-card-content>
+		<div layout-xs="column" flex-xs layout-margin>
+			<div flex="100">	
+				<md-icon  class="mdi-36px" md-svg-icon='pencil'></md-icon>
+			 	<span class="md-headline" style="vertical-align: bottom;">Skills</span>
+			</div>
+			<div flex="100" ng-repeat="skill in skills">
+				<div layout="row" layout-align="left center">
+					<div ng-class="{
+						'skill-indicator':true,
+						'beginner': skill.level === 'Beginner',
+						'intermediate': skill.level === 'Intermediate',
+						'master': skill.level === 'Master'}">
+						<md-tooltip>{{skill.level}}</md-tooltip>
+					</div>
+					<div layout-margin class="md-body-2"> {{skill.name}}</div>
+				</div>
+				<md-chips ng-model="skill.keywords" readonly="true"></md-chips>
+			</div>
+		</div>
+	</md-card-content>
+</md-card>

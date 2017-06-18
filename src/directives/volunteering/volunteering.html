@@ -1,0 +1,41 @@
+<md-card md-theme='defaults'>
+	<md-card-content>
+		<div layout-xs="column" flex-xs layout-margin>
+			<div flex="100">	
+				<md-icon  class="mdi-36px" md-svg-icon='briefcase'></md-icon>
+			 	<span class="md-headline" style="vertical-align: bottom;">Volunteering</span>
+			</div>
+			<div flex="100" ng-repeat="job in volunteer">
+				<div layout="row" layout-xs="column" layout-align="end center">
+					<div flex-order="1">
+						<a ng-href="{{job.website}}">
+							<img
+								layout-margin
+								class="logo-avatar"
+								ng-src={{job.picture}}>
+						</a>
+					</div>
+					<div layout="column" flex flex-order="2">
+						<div class="md-body-2" flex hide-xs>{{job.organisation}}</div>
+						<div class="md-body-2" flex>{{job.position}}</div>
+						<div class="md-caption" flex>{{job.summary}}</div>
+					</div>
+					<div 
+						class="md-body-1" 
+						flex-xs="100" 
+						flex-order="3" 
+						layout-padding>
+						{{job.startDate | date:'MMM yyyy'}} - {{job.endDate | date:'MMM yyyy'}} 
+					</div>
+				</div>
+				<p 
+					flex='100'
+					ng-if="job.highlights.length > 0"
+					class="md-body-1">
+					{{job.highlights.join(' ')}}
+				</p>
+				<md-divider ng-if="!$last"></md-divider>
+			</div>
+		</div>
+	</md-card-content>
+</md-card>
