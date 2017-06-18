@@ -7,7 +7,7 @@
 		'ngAria',
 		'ngMaterial',
 		'ngRoute',
-		'templates'
+		'app-templates'
 	])
 	.config([
 		'$mdThemingProvider',
