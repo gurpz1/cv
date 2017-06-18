@@ -10,8 +10,8 @@ var paths = {
         html: [__dirname + "/src/**/*.html", "!" + __dirname + "/src/index.html"],
         index: __dirname + "/src/index.html",
         styles: __dirname + "/src/styles/**/*.less",
-        assets: [__dirname + "/src/assets/**/!(*.jpg|*.jpeg|*.png|*.gif|*.svg)"],
-        images: [__dirname + "/src/assets/**/*.{jpg,jpeg,png,gif,svg}"]
+        assets: [__dirname + "/src/assets/**/!(*.jpg|*.jpeg|*.png|*.gif)"],
+        images: [__dirname + "/src/assets/**/*.{jpg,jpeg,png,gif}"]
     },
     dist: {
         dir: __dirname + "/dist",
@@ -105,7 +105,7 @@ gulp.task("copy-assets", function() {
  */
 gulp.task("imagemin", function() {
     return gulp.src(paths.src.images)
-        // .pipe(plugins.imagemin())
+        .pipe(plugins.imagemin())
         .pipe(gulp.dest(paths.dist.assets));
 });
 
@@ -202,7 +202,7 @@ gulp.task("build-prod",[
     ]
 );
 gulp.task("deploy", ["build-prod"], function () {
-    return gulp.src(paths.src.dir + "/**/*")
+    return gulp.src(paths.dist.dir + "/**/*")
         .pipe(plugins.ghPages());
 });
 
