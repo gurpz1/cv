@@ -1,8 +1,8 @@
-<md-card md-theme='defaults'>
+<md-card md-theme="defaults">
 	<md-card-content>
 		<div layout-xs="column" flex-xs layout-margin>
 			<div flex="100">	
-				<md-icon  class="mdi-36px" md-svg-icon='account-multiple'></md-icon>
+				<md-icon  class="mdi-36px" md-svg-icon="account-multiple"></md-icon>
 			 	<span class="md-headline" style="vertical-align: bottom;">Work</span>
 			</div>
 			<div flex="100" ng-repeat="job in work">
@@ -12,7 +12,7 @@
 							<img
 								layout-margin
 								class="logo-avatar"
-								ng-src={{job.picture}}>
+								ng-src="{{job.picture}}">
 						</a>
 					</div>
 					<div layout="column" flex flex-order="2">
@@ -25,7 +25,7 @@
 						flex-xs="100" 
 						flex-order="3" 
 						layout-padding> 
-						{{job.startDate | date:'MMM yyyy'}} - {{job.endDate | date:'MMM yyyy'}} 
+						{{job.startDate | date:"MMM yyyy"}} - {{job.endDate | date:"MMM yyyy"}} 
 					</div>
 				</div>
 				<md-list>
