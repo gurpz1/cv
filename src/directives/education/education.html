@@ -1,8 +1,8 @@
-<md-card md-theme='defaults'>
+<md-card md-theme="defaults">
 	<md-card-content>
 		<div layout-xs="column" flex-xs layout-margin>
 			<div flex="100">	
-				<md-icon  class="mdi-36px" md-svg-icon='book-open-page-variant'></md-icon>
+				<md-icon  class="mdi-36px" md-svg-icon="book-open-page-variant"></md-icon>
 			 	<span class="md-headline" style="vertical-align: bottom;">Education</span>
 			</div>
 			<div flex="100" ng-repeat="school in education">
@@ -11,7 +11,7 @@
 						<img
 							layout-margin
 							class="logo-avatar"
-							ng-src={{school.picture}}>
+							ng-src="{{school.picture}}">
 					</div>
 					<div layout="column" flex flex-order="2">
 						<div class="md-body-2" flex hide-xs> {{school.institution}}</div>
@@ -22,7 +22,7 @@
 						flex-xs="100" 
 						flex-order="3" 
 						layout-padding> 
-						{{school.startDate | date:'MMM yyyy'}} - {{school.endDate | date:'MMM yyyy'}} 
+						{{school.startDate | date:"MMM yyyy"}} - {{school.endDate | date:"MMM yyyy"}} 
 					</div>
 				</div>
 				<md-divider ng-if="!$last"></md-divider>
