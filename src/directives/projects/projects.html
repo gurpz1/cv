@@ -6,7 +6,7 @@
 			 	<span class="md-headline" style="vertical-align: bottom;">Projects</span>
 			</div>
 			<div flex="100" ng-repeat="project in projects">
-				<div layout="row" layout-xs="column" layout-align="end center">
+				<div layout-gt-xs="row" layout-xs="column" layout-align="end center">
 					<div layout="column" flex flex-order="1">
 						<div class="md-body-2" flex> {{project.name}}</div>
 						<div class="md-caption" flex> {{project.description}}</div>
@@ -14,7 +14,6 @@
 					</div>
 					<div 
 						class="md-body-1" 
-						flex-xs="100" 
 						flex-order="2" 
 						layout-padding>
 						{{project.endDate | date:"MMM yyyy"}} 

@@ -6,7 +6,7 @@
 			 	<span class="md-headline" style="vertical-align: bottom;">Work</span>
 			</div>
 			<div flex="100" ng-repeat="job in work">
-				<div layout="row" layout-xs="column" layout-align="end center">
+				<div layout-gt-xs="row" layout-xs="column" layout-align="end center">
 					<div flex-order="1">
 						<a ng-href="{{job.website}}">
 							<img
@@ -22,7 +22,6 @@
 					</div>
 					<div 
 						class="md-body-1" 
-						flex-xs="100" 
 						flex-order="3" 
 						layout-padding> 
 						{{job.startDate | date:"MMM yyyy"}} - {{job.endDate | date:"MMM yyyy"}} 

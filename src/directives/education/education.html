@@ -6,7 +6,7 @@
 			 	<span class="md-headline" style="vertical-align: bottom;">Education</span>
 			</div>
 			<div flex="100" ng-repeat="school in education">
-				<div layout="row" layout-xs="column" layout-align="end center">
+				<div layout-gt-xs="row" layout-xs="column" layout-align="end center">
 					<div flex-order="1">
 						<img
 							layout-margin
@@ -19,7 +19,6 @@
 					</div>
 					<div 
 						class="md-body-1" 
-						flex-xs="100" 
 						flex-order="3" 
 						layout-padding> 
 						{{school.startDate | date:"MMM yyyy"}} - {{school.endDate | date:"MMM yyyy"}} 
