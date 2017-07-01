@@ -146,7 +146,8 @@
                 "Jira",
                 "Git",
                 "SVN",
-                "Fisheye"
+                "Fisheye",
+                "Crucible"
             ],
             "level": "Master",
             "name": "Software Development Cycle"
@@ -170,6 +171,24 @@
             ],
             "level": "Intermediate",
             "name": "Python Development"
+        },
+        {
+
+            "keywords": [
+                "SQL"
+            ],
+            "level": "Intermediate",
+            "name": "Data"
+        },
+        {
+
+            "keywords": [
+                "RHEL Administration",
+                "RHEL Performance Tuning",
+                "Windows 7"
+            ],
+            "level": "Master",
+            "name": "Operating Systems"
         }
     ],
     "volunteer": [
