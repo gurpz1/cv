@@ -2,6 +2,7 @@ var gulp=require("gulp");
 var plugins=require("gulp-load-plugins")();
 var bowerFiles =require("main-bower-files");
 var path = require("path");
+var exists = require('path-exists').sync;
 var fs = require("fs");
 
 var paths = {
@@ -180,7 +181,14 @@ gulp.task("watch", function() {
  */
 
 gulp.task("copy-bower-files", function () {
-    return gulp.src(bowerFiles())
+
+    // Replace files by their minified version when possible
+    var bowerWithMin = bowerFiles().map( function(path, index, arr) {
+        var newPath = path.replace(/.([^.]+)$/g, '.min.$1');
+        return exists( newPath ) ? newPath : path;
+    });
+
+    return gulp.src(bowerWithMin)
     .pipe(gulp.dest(paths.dist.vendor));
 });
 

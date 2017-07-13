@@ -33,6 +33,7 @@
     "gulp-uglify": "^3.0.0",
     "htmlhint-stylish": "^1.0.3",
     "jshint-stylish": "^2.2.1",
-    "main-bower-files": "^2.13.1"
+    "main-bower-files": "^2.13.1",
+    "path-exists": "^3.0.0"
   }
 }
