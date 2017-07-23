@@ -20,6 +20,13 @@
 	    		.primaryPalette('indigo')
 	    		.accentPalette('blue');
 
+	    	// Enable browser color
+		    $mdThemingProvider.enableBrowserColor({
+		      theme: 'default',
+		      palette: 'blue',
+		      hue: '700' // Default is '800'
+		    });
+
 	    	$logProvider.debugEnabled = true;
 
 	    	$routeProvider
