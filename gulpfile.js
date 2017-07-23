@@ -13,7 +13,8 @@ var paths = {
         index: __dirname + "/src/index.html",
         styles: __dirname + "/src/styles/**/*.less",
         assets: [__dirname + "/src/assets/**/!(*.jpg|*.jpeg|*.png|*.gif)"],
-        images: [__dirname + "/src/assets/**/*.{jpg,jpeg,png,gif}"]
+        images: [__dirname + "/src/assets/**/*.{jpg,jpeg,png,gif}"],
+        cv: __dirname + "/src/assets/resume.json"
     },
     dist: {
         dir: __dirname + "/dist",
@@ -159,6 +160,20 @@ gulp.task("inject-prod",["html2js", "minify", "compile-less", "copy-bower-files"
     .pipe(
         plugins.inject(shared.angularFileSort([paths.dist.js + "/**/*.js"]),
             {name: "app", relative:true})
+    )
+    // Inject description
+    .pipe(
+        plugins.inject(gulp.src(paths.src.cv), {
+            starttag: "<!-- inject:head -->",
+            transform: function(filePath, file) {
+                var cc = JSON.parse(file.contents);
+                var description = cc.basics.summary.toString("utf8");
+                var picture = cc.basics.picture.toString("utf8");
+                var meta_desc =  '<meta name="description" content="' + description + '">';
+                var meta_pic = '<meta property="og:image" content="'+picture +'">';
+                return meta_desc + '\n\t\t' + meta_pic;
+            }
+        })
     )
     .pipe(gulp.dest(paths.dist.dir));
 });
