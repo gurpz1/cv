@@ -32,27 +32,27 @@
         {
             "area": "Physics",
             "courses": [],
-            "endDate": "2008-09-01",
+            "endDate": "2012-06-01",
             "institution": "University College London",
-            "startDate": "2012-06-01",
+            "startDate": "2008-09-01",
             "studyType": "MSci",
             "picture": "assets/ucl_logo.png"
         },
         {
             "area": "Mathematics, Physics, Biology",
             "courses": [],
-            "endDate": "2006-06-01",
+            "endDate": "2008-09-01",
             "institution": "Havering Sixth Form College",
-            "startDate": "2008-09-01",
+            "startDate": "2006-06-01",
             "studyType": "A Levels",
             "picture": "assets/havering_logo.jpg"
         },
         {
             "area": "Further Mathematics, Chemistry, ICT",
             "courses": [],
-            "endDate": "2006-06-01",
+            "endDate": "2008-09-01",
             "institution": "Havering Sixth Form College",
-            "startDate": "2008-09-01",
+            "startDate": "2006-06-01",
             "studyType": "AS Levels",
             "picture": "assets/havering_logo.jpg"
         }
