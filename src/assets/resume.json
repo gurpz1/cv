@@ -261,7 +261,7 @@
             "endDate": "2015-05-01",
             "highlights": [
                 "Delivered a new client side web app, including choosing a JS framework, templating engine, building environment and deployment scripts leveraging AngularJS, Make, NodeJS, Grunt and Bower.",
-                "Took sole ownership of re-engineering a custom Excel add-in from scratch to concurrently load data from a database via User Defined Functions.",
+                "Took sole ownership of re-engineering a custom Excel add-in, written in C++ to C#, from scratch, to concurrently load data from a database via User Defined Functions.",
                 "Developed Sybase database views and stored procedures for the department’s RESTful API.",
                 "Developed ‘system resource viewer’ in order to determine correct Linux Control Group parameters for the department.",
                 "Took ownership of production issues, managing releases and dealing with ad-hoc data queries from business users."
