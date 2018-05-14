@@ -245,6 +245,16 @@
         {
             "company": "G-Research",
             "endDate": "",
+            "highlights": [],
+            "position": "Realtime Operations Manager",
+            "startDate": "2018-06-05",
+            "summary": "Responsible for execution platform.",
+            "website": "http://www.gresearch.co.uk",
+            "picture": "assets/gresearch_logo.png"
+        },
+        {
+            "company": "G-Research",
+            "endDate": "2018-05-01",
             "highlights": [
                 "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS.",
                 "Automated the allocation of services across our service estate allowing for maximum use of hardware.",
