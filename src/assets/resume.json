@@ -1,7 +1,7 @@
 {
     "awards": [],
     "basics": {
-        "email": "info@gurpalsagoo.com",
+        "email": "contact@sagoo.io",
         "label": "Technologist",
         "location": {
             "address": "",
@@ -15,9 +15,14 @@
         "picture": "assets/profile.png",
         "profiles": [
             {
-                "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/gsagoo/",
-                "username": "gsagoo"
+                "network": "Email",
+                "url": "mailto:contact@sagoo.io",
+                "username": "Email"
+            },
+            {
+                "network": "GitHub-Circle",
+                "url": "https://www.github.com/gurpz1",
+                "username": "gurpz1"
             },
             {
                 "network": "Instagram",
