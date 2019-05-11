@@ -127,7 +127,7 @@
                 "Grunt",
                 "Gulp",
                 "Bower",
-                "CSS",
+                "CSS3",
                 "Javascript",
                 "AngularJS",
                 "NodeJS"
@@ -140,8 +140,7 @@
                 "WebAPI",
                 "ExcelDNA",
                 "WPF",
-                "NUnit",
-                "Moq"
+                "NUnit"
             ],
             "level": "Intermediate",
             "name": "C# Development"
@@ -150,9 +149,7 @@
             "keywords": [
                 "Jira",
                 "Git",
-                "SVN",
-                "Fisheye",
-                "Crucible"
+                "SVN"
             ],
             "level": "Master",
             "name": "Software Development Cycle"
@@ -160,9 +157,10 @@
         {
 
             "keywords": [
-                "TeamCity",
+                "Bamboo",
                 "Jenkins",
                 "Splunk",
+                "Docker",
                 "TSDB + Grafana"
             ],
             "level": "Intermediate",
@@ -180,7 +178,8 @@
         {
 
             "keywords": [
-                "SQL"
+                "SQL",
+                "Tableau"
             ],
             "level": "Intermediate",
             "name": "Data"
@@ -189,8 +188,8 @@
 
             "keywords": [
                 "RHEL Administration",
-                "RHEL Performance Tuning",
-                "Windows 7"
+                "Windows 10",
+                "Windows Server"
             ],
             "level": "Master",
             "name": "Operating Systems"
