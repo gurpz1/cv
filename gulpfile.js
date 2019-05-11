@@ -225,6 +225,7 @@ gulp.task("build-prod",[
         "inject-prod"
     ]
 );
+
 gulp.task("deploy", ["build-prod"], function () {
     fs.writeFile(paths.dist.dir + "/CNAME", "gurpalsagoo.com", function(err) {
         if (err) {
