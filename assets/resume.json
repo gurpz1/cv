@@ -16,7 +16,7 @@
         "profiles": [
             {
                 "network": "Email",
-                "url": "mailto:contact@sagoo.io",
+                "url": "mailto:gurpal@sagoo.io",
                 "username": "Email"
             },
             {
