@@ -1,7 +1,7 @@
 {
     "awards": [],
     "basics": {
-        "email": "contact@sagoo.io",
+        "email": "gurpal@sagoo.io",
         "label": "Technologist",
         "location": {
             "address": "",
@@ -25,13 +25,18 @@
                 "username": "gurpz1"
             },
             {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gsagoo",
+                "username": "gsagoo"
+            },
+            {
                 "network": "Instagram",
                 "url": "https://www.instagram.com/g__pz/",
                 "username": "g__pz"
             }
         ],
-        "summary": "I am a self taught competent software developer with an eye for automation. I thrive under pressure and enjoy tackling challenging projects both horizontally with teams and individually.",
-        "website": "http://gurpalsagoo.com"
+        "summary": "I am a visionary engineering leader delivering business growth by unlocking value for engineering first organisations through optimisation of processes. I have experience in leading successful cross-functional teams, fostering collaboration and leveraging technology to achieve business objectives.",
+        "website": "http://gurpalsagoo.com" 
     },
     "education": [
         {
@@ -64,8 +69,20 @@
     ],
     "interests": [
         {
-            "keywords": [],
-            "name": "Wildlife"
+            "keywords": [
+                "F1",
+                "Rallying",
+                "Road Cars"
+            ],
+            "name": "Automobiles"
+        },
+        {
+            "keywords": [
+                "Phones",
+                "Computers",
+                "Home Automation"
+            ],
+            "name": "Consumer Technology"
         }
     ],
     "languages": [
@@ -79,6 +96,26 @@
         }
     ],
     "projects": [
+        {
+            "name": "Homelab",
+            "description": "Setup homelab for home automation projects and learning playground",
+            "endDate": "",
+            "entity": "",
+            "highlights": [
+                "Playground to experiment with new technologies",
+            ],
+            "keywords": [
+                "Docker",
+                "Homelab",
+                "Monitoring"
+            ],
+            "roles": [
+                "Developer"
+            ],
+            "startDate": "2023-01-01",
+            "type": "hardware",
+            "url": "https://github.com/gurpz1/home-lab"
+        },
         {
             "description": "Push PC racing game data to an unmodified dashboard using an Arduino.",
             "endDate": "2012-02-01",
@@ -123,33 +160,18 @@
     "skills": [
         {
             "keywords": [
-                "HTML",
-                "Grunt",
-                "Gulp",
-                "Bower",
-                "CSS3",
-                "Javascript",
-                "AngularJS",
-                "NodeJS"
             ],
             "level": "Intermediate",
             "name": "Web Development"
         },
         {
             "keywords": [
-                "WebAPI",
-                "ExcelDNA",
-                "WPF",
-                "NUnit"
             ],
             "level": "Intermediate",
             "name": "C# Development"
         },
         {
             "keywords": [
-                "Jira",
-                "Git",
-                "SVN"
             ],
             "level": "Master",
             "name": "Software Development Cycle"
@@ -157,11 +179,6 @@
         {
 
             "keywords": [
-                "Bamboo",
-                "Jenkins",
-                "Splunk",
-                "Docker",
-                "TSDB + Grafana"
             ],
             "level": "Intermediate",
             "name": "DevOps"
@@ -169,8 +186,6 @@
         {
 
             "keywords": [
-                "pyCharm",
-                "pytest"
             ],
             "level": "Intermediate",
             "name": "Python Development"
@@ -178,21 +193,9 @@
         {
 
             "keywords": [
-                "SQL",
-                "Tableau"
             ],
             "level": "Intermediate",
             "name": "Data"
-        },
-        {
-
-            "keywords": [
-                "RHEL Administration",
-                "Windows 10",
-                "Windows Server"
-            ],
-            "level": "Master",
-            "name": "Operating Systems"
         }
     ],
     "volunteer": [
@@ -248,8 +251,22 @@
     "work": [
         {
             "company": "G-Research",
-            "endDate": "",
-            "highlights": [],
+            "endDate": "2023-02-01",
+            "highlights": [
+
+            ],
+            "position": "Realtime Platform Release Engineering",
+            "startDate": "2022-01-01",
+            "summary": "Responsible for execution platform.",
+            "website": "http://www.gresearch.co.uk",
+            "picture": "assets/gresearch_logo.png"
+        },
+        {
+            "company": "G-Research",
+            "endDate": "2021-12-31",
+            "highlights": [
+
+            ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",
             "summary": "Responsible for execution platform.",
@@ -260,8 +277,9 @@
             "company": "G-Research",
             "endDate": "2018-05-01",
             "highlights": [
-                "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS.",
-                "Automated the allocation of services across our service estate allowing for maximum use of hardware.",
+                "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS enabling business critical workflows to be monitored and debugged at a glance.",
+                "Automated the allocation of services across our service estate allowing for maximum use of hardware using linear programming techniques in python",
+                "Lead a mindset shift across the organisation and levelled up Operations Analysts to become Operations Engineers",
                 "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries."
             ],
             "position": "Technical Operations Analyst",
