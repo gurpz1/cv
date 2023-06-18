@@ -20,7 +20,7 @@
                 "username": "Email"
             },
             {
-                "network": "GitHub-Circle",
+                "network": "GitHub",
                 "url": "https://www.github.com/gurpz1",
                 "username": "gurpz1"
             },
@@ -35,7 +35,7 @@
                 "username": "g__pz"
             }
         ],
-        "summary": "I am a visionary engineering leader delivering business growth by unlocking value for engineering first organisations through optimisation of processes. I have experience in leading successful cross-functional teams, fostering collaboration and leveraging technology to achieve business objectives.",
+        "summary": "I am a visionary engineering leader delivering business growth by unlocking value for engineering first organisations through optimisation of processes. <br/> <br/> I have experience in leading successful cross-functional teams, fostering collaboration and leveraging technology to achieve business objectives.",
         "website": "http://gurpalsagoo.com" 
     },
     "education": [
@@ -102,7 +102,7 @@
             "endDate": "",
             "entity": "",
             "highlights": [
-                "Playground to experiment with new technologies",
+                "Playground to experiment with new technologies"
             ],
             "keywords": [
                 "Docker",
