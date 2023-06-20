@@ -12,10 +12,11 @@
         },
         "name": "Gurpal Sagoo",
         "phone": "",
-        "picture": "assets/profile.png",
+        "picture": "/src/assets/profile.png",
         "profiles": [
             {
                 "network": "Email",
+                "icon": "envelope",
                 "url": "mailto:gurpal@sagoo.io",
                 "username": "Email"
             },
@@ -46,7 +47,7 @@
             "institution": "University College London",
             "startDate": "2008-09-01",
             "studyType": "MSci",
-            "picture": "assets/ucl_logo.png"
+            "picture": "/src/assets/ucl_logo.png"
         },
         {
             "area": "Mathematics, Physics, Biology",
@@ -55,7 +56,7 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "A Levels",
-            "picture": "assets/havering_logo.jpg"
+            "picture": "/src/assets/havering_logo.jpg"
         },
         {
             "area": "Further Mathematics, Chemistry, ICT",
@@ -64,7 +65,7 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "AS Levels",
-            "picture": "assets/havering_logo.jpg"
+            "picture": "/src/assets/havering_logo.jpg"
         }
     ],
     "interests": [
@@ -209,7 +210,7 @@
             "startDate": "2012-10-01",
             "summary": "Assisted with A Level Physics tutoring at the Bridge Academy and mentored a 17 year old throughout A Levels",
             "website": "",
-            "picture": "assets/ubs_logo.png"
+            "picture": "/src/assets/ubs_logo.png"
         },
         {
             "endDate": "2014-06-01",
@@ -221,7 +222,7 @@
             "startDate": "2014-01-01",
             "summary": "Hackney school children compete with one another in a variety of interesting sports.",
             "website": "",
-            "picture": "assets/ubs_logo.png"
+            "picture": "/src/assets/ubs_logo.png"
         },
         {
             "endDate": "2013-07-01",
@@ -233,7 +234,7 @@
             "startDate": "2013-01-01",
             "summary": "Networking event consisting of UBS Champions with old and new graduates.",
             "website": "",
-            "picture": "assets/ubs_logo.png"
+            "picture": "/src/assets/ubs_logo.png"
         },
         {
             "endDate": "2011-06-01",
@@ -245,7 +246,7 @@
             "startDate": "2010-06-01",
             "summary": "UCL's only motorsport society",
             "website": "",
-            "picture": "assets/ucl_logo.png"
+            "picture": "/src/assets/ucl_logo.png"
         }
     ],
     "work": [
@@ -259,7 +260,7 @@
             "startDate": "2022-01-01",
             "summary": "Responsible for execution platform.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "assets/gresearch_logo.png"
+            "picture": "/src/assets/gresearch_logo.png"
         },
         {
             "company": "G-Research",
@@ -271,7 +272,7 @@
             "startDate": "2018-05-01",
             "summary": "Responsible for execution platform.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "assets/gresearch_logo.png"
+            "picture": "/src/assets/gresearch_logo.png"
         },
         {
             "company": "G-Research",
@@ -286,7 +287,7 @@
             "startDate": "2015-06-01",
             "summary": "Responsible for live trading environment.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "assets/gresearch_logo.png"
+            "picture": "/src/assets/gresearch_logo.png"
         },
         {
             "company": "UBS",
@@ -302,7 +303,7 @@
             "startDate": "2013-10-01",
             "summary": "Responsible for the delivery of greenfield applications utilising many different technologies within 'Advisory and Research IT'",
             "website": "https://www.ubs.com",
-            "picture": "assets/ubs_logo.png"
+            "picture": "/src/assets/ubs_logo.png"
         },
         {
             "company": "UBS",
@@ -317,7 +318,7 @@
             "startDate": "2012-09-01",
             "summary": "Graduate Training Programme. Placed within 'Platform Services - Unix Service Delivery'",
             "website": "https://www.ubs.com",
-            "picture": "assets/ubs_logo.png"
+            "picture": "/src/assets/ubs_logo.png"
         },
         {
             "company": "UBS",
@@ -331,7 +332,7 @@
             "startDate": "2011-09-01",
             "summary": "6 week technical internship within 'Clearing & Settlement IT Production Services'",
             "website": "https://www.ubs.com",
-            "picture": "assets/ubs_logo.png"
+            "picture": "/src/assets/ubs_logo.png"
         },
         {
             "company": "Primark",
@@ -341,7 +342,7 @@
             "startDate": "2009-10-01",
             "summary": "",
             "website": "https://www.primark.com",
-            "picture": "assets/primark_logo.png"
+            "picture": "/src/assets/primark_logo.png"
         },
         {
             "company": "University College London",
@@ -351,7 +352,7 @@
             "startDate": "2009-09-01",
             "summary": "Guided a group of first year undergraduates who had just started their degrees to ease their transition into university.",
             "website": "https://www.ucl.ac.uk",
-            "picture": "assets/ucl_logo.png"
+            "picture": "/src/assets/ucl_logo.png"
         }
     ]
 }

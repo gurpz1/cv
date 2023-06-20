@@ -2,6 +2,8 @@
 import { resumeStore } from '@/stores/resume'
 const resume = resumeStore()
 
+import SocialProfile from '@/components/SocialProfile.vue'
+
 import Card from 'primevue/card';
 
 </script>
@@ -9,11 +11,13 @@ import Card from 'primevue/card';
 <template>
     <Card>
         <template #header>
-            <div class="flex justify-content-center pt-2">
+            <div 
+                class="flex justify-content-center pt-2"
+            >
                 <img
                     alt="profile"
-                    src="../assets/profile.png"
-                    class="border-circle w-11"
+                    :src="resume.data.basics.picture"
+                    class="border-circle w-6 shadow-3"
                 />
             </div>
         </template>
@@ -27,8 +31,16 @@ import Card from 'primevue/card';
         </template>
 
         <template #footer>
-            <div v-for="profile in resume.data.basics.profiles">
-                
+            <div class="flex justify-content-center column-gap-3">
+                <SocialProfile
+                    class="text-3xl"
+                    v-for="profile in resume.data.basics.profiles" 
+                    :key="profile.network"
+                    :icon="profile.icon"
+                    :network="profile.network"
+                    :url="profile.url"
+                    :username="profile.username"
+                />
             </div>
         </template>
     </Card>
