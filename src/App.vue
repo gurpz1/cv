@@ -24,7 +24,7 @@ import WorkExperience from '@/components/WorkExperience.vue'
       </aside>
 
       <div class="col">
-        <Card>
+        <Card class="bg-primary">
             <template #title>
                 Work Experience
             </template>

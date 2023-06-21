@@ -21,7 +21,7 @@ export default defineComponent({
                     class: "flex flex-nowrap flex-column"
                 },
                 body: {
-                    class: "relative h-full"
+                    class: "relative h-full sm:text-sm"
                 },
                 footer: {
                     class: "bottom-0  left-0 pb-2 absolute w-full"
