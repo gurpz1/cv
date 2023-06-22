@@ -105,9 +105,8 @@
     "projects": [
         {
             "name": "Homelab",
-            "description": "Setup homelab for home automation projects and learning playground",
+            "summary": "For home automation and learning new tech.",
             "endDate": "",
-            "entity": "",
             "highlights": [
                 "Playground to experiment with new technologies"
             ],
@@ -120,13 +119,11 @@
                 "Developer"
             ],
             "startDate": "2023-01-01",
-            "type": "hardware",
             "url": "https://github.com/gurpz1/home-lab"
         },
         {
-            "description": "Push PC racing game data to an unmodified dashboard using an Arduino.",
+            "summary": "Push PC racing game data to an unmodified dashboard using an Arduino.",
             "endDate": "2012-02-01",
-            "entity": "",
             "highlights": [
                 "Designed circuit diagram for shift lights/tft screen.",
                 "Modified PC power supply to power dashboard and lights.",
@@ -146,8 +143,7 @@
                 "Developer"
             ],
             "startDate": "2012-01-01",
-            "type": "hardware",
-            "url": "https://youtu.be/LToDmIY6j2s"
+            "url": "https://www.youtube.com/embed/LToDmIY6j2s"
         }
     ],
     "publications": [

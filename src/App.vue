@@ -7,6 +7,7 @@ import { resumeStore } from '@/stores/resume'
 const resume = resumeStore()
 
 import ProfileBar from '@/components/ProfileBar.vue'
+import ProjectsCard from './components/ProjectsCard.vue';
 import WorkExperience from '@/components/WorkExperience.vue'
 
 </script>
@@ -35,6 +36,15 @@ import WorkExperience from '@/components/WorkExperience.vue'
             <template #content>
                 <WorkExperience :work-profile="resume.data.work" />
             </template>
+        </Card>
+        
+        <Card class="surface-100 mt-6">
+          <template #title>
+            Projects
+          </template>
+          <template #content>
+            <ProjectsCard :projects="resume.data.projects"/>
+          </template>
         </Card>
       </div>
     </div>
