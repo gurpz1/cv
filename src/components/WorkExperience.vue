@@ -2,6 +2,7 @@
 import { defineComponent } from 'vue';
 
 import Button from 'primevue/button'
+import Divider from 'primevue/divider';
 import Inplace from 'primevue/inplace';
 
 import WorkCard from '@/components/WorkCard.vue'
@@ -9,6 +10,7 @@ import WorkCard from '@/components/WorkCard.vue'
 export default defineComponent({
     components: {
         Button,
+        Divider,
         Inplace,
         WorkCard
     },
@@ -42,12 +44,13 @@ export default defineComponent({
 
 <template>
     <div>
+        <template v-for="(job, index) in this.mostRecentWork" :key="job.endDate">
         <WorkCard 
-            v-for="(job, index) in this.mostRecentWork"
-            :key="job.endDate"
             :class="{'mt-4': index !==0 }"
             :work-item="job"/>
-    
+        <Divider v-if="index !== this.mostRecentWork.length - 1" />
+        </template>
+
         <Inplace>
             <template #display>
                 <div class="flex justify-content-center w-full">
@@ -56,11 +59,12 @@ export default defineComponent({
             </template>
             
             <template #content>
-                <WorkCard 
-                    v-for="job in this.olderWork"
-                    :key="job.endDate"
-                    class="mt-4"
-                    :work-item="job"/>
+                <template v-for="job in this.olderWork" :key="job.endDate">
+                    <Divider />
+                    <WorkCard 
+                        class="mt-4"
+                        :work-item="job"/>
+                </template>
             </template>
         </Inplace>
     </div>
