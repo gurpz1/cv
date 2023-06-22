@@ -39,6 +39,12 @@
         "summary": "I am a visionary engineering leader delivering business growth by unlocking value for engineering first organisations through optimisation of processes. <br/> <br/> I have experience in leading successful cross-functional teams, fostering collaboration and leveraging technology to achieve business objectives.",
         "website": "http://gurpalsagoo.com" 
     },
+    "certificates": [{
+        "name": "Leadership",
+        "date": "2020-11-07",
+        "issuer": "Hult Ashridge",
+        "url": "https://www.hult.edu/"
+    }],
     "education": [
         {
             "area": "Physics",
@@ -132,7 +138,8 @@
                 "C++",
                 "Cars",
                 "Instrument Cluster",
-                "Embedded Systems"
+                "Embedded Systems",
+                "YouTube"
             ],
             "name": "Hacking a Car Instrument Cluster",
             "roles": [
@@ -254,11 +261,11 @@
             "company": "G-Research",
             "endDate": "2023-02-01",
             "highlights": [
-
+                "Responsible for Build, Test, Release of the in-house High Frequency Trading Platform"
             ],
             "position": "Realtime Platform Release Engineering",
             "startDate": "2022-01-01",
-            "summary": "Responsible for execution platform.",
+            "summary": "Responsible for Build, Test Release of High Frequency Trading Platform.",
             "website": "http://www.gresearch.co.uk",
             "picture": "/src/assets/gresearch_logo.png"
         },
@@ -266,12 +273,15 @@
             "company": "G-Research",
             "endDate": "2021-12-31",
             "highlights": [
-                "From scratch, seeded a new team responsible for Operational integrity of the high frequency trading platform.",
-                ""
+                "Seeded a new team responsible for operational integrity of the in-house high frequency trading platform.<br/>Responsibilities included (but not limited to):<ul><li> The test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li></ul>",
+                "Changed organisational perspective of traditional Operations from Analyst driven, to Engineer driven.",
+                "Delivered an automated UAT framework leading to a 3x increase in platform version upgrades.",
+                "Grew the team from 3 people to 7 with ranging levels of experience and expertise.",
+                "Conducted active 1-to-1 career focused discussions with team resulting in measurable knowledge uplifts."
             ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",
-            "summary": "Responsible for execution platform.",
+            "summary": "Responsible for operational integrity of the in-house High Frequency Trading Platform.",
             "website": "http://www.gresearch.co.uk",
             "picture": "/src/assets/gresearch_logo.png"
         },
