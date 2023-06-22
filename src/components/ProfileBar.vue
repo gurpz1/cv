@@ -2,6 +2,7 @@
 import { defineComponent } from 'vue';
 
 import SocialProfileIcon from '@/components/SocialProfileIcon.vue'
+import EducationCard from './EducationCard.vue';
 
 import Card from 'primevue/card';
 import Divider from 'primevue/divider';
@@ -9,12 +10,14 @@ import Divider from 'primevue/divider';
 
 export default defineComponent({
     components: {
-        Card,
-        Divider,
-        SocialProfileIcon
-    },
+    Card,
+    Divider,
+    SocialProfileIcon,
+    EducationCard
+},
     props: {
-        basicProfile: [Object]
+        basicProfile: {type: [Object], required: true},
+        educationProfile: {type: [Object], required: true}
     },
     data: function() {
         return {
@@ -54,23 +57,30 @@ export default defineComponent({
         
         <template #title> {{ this.basicProfile.name }} </template>
         
-        <template #subtitle> {{ this.basicProfile.label }}<span><Divider/></span> </template>
-
+        
+        <template #subtitle>
+            {{ this.basicProfile.label }}
+            <Divider/>
+        </template>
+        
         
         <template #content>
             <p v-html="this.basicProfile.summary"></p>
+            <Divider />
+            <h3>Education</h3>
+            <EducationCard class="-mt-2" :education-profile="this.educationProfile" />
         </template>
-
+        
         <template #footer>
             <div class="flex justify-content-center column-gap-3">
                 <SocialProfileIcon
-                    class="text-3xl"
-                    v-for="profile in this.basicProfile.profiles" 
-                    :key="profile.network"
-                    :icon="profile.icon"
-                    :network="profile.network"
-                    :url="profile.url"
-                    :username="profile.username"
+                class="text-3xl"
+                v-for="profile in this.basicProfile.profiles" 
+                :key="profile.network"
+                :icon="profile.icon"
+                :network="profile.network"
+                :url="profile.url"
+                :username="profile.username"
                 />
             </div>
         </template>

@@ -3,7 +3,7 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
     props: {
-        workItem: [Object]
+        workItem: {type: [Object], required: true}
     },
     data: function() {
         return {
@@ -48,8 +48,9 @@ export default defineComponent({
             </div>
             <!-- Company name and job title -->
             <div class="flex flex-column flex-grow-1 flex-order-2">
-                <div class="text-xl lg:text-lg md:text-sm sm:text-sm">{{ this.workItem.company }}</div>
-                <div class=" text-xl
+                <div class="text-xl lg:text-xl md:text-lg sm:text-sm">{{ this.workItem.company }}</div>
+                <div class=" text-sm
+                        xl:text-sm
                         lg:text-sm
                         lg:font-normal
                         md:text-xs
@@ -62,9 +63,9 @@ export default defineComponent({
             </div>
             <!-- Date tenured -->
             <div class="flex-order-3
-                text-lg
+                text-sm
+                xl:text-sm
                 lg:text-sm
-                lg:font-normal
                 md:text-xs
                 md:font-light
                 sm:text-xs
@@ -78,11 +79,12 @@ export default defineComponent({
             flex-grow-1
             pl-4
             ml-5
+            text-sm
+            xl:text-sm
             lg:text-sm
             md:text-xs
             sm:text-xs" style="flex-basis: 100%;">
-            <p v-for="highlight in this.workItem.highlights" :key="highlight">
-                {{ highlight }}
+            <p v-for="highlight in this.workItem.highlights" :key="highlight" v-html="highlight">
             </p>
         </div>
     </div>

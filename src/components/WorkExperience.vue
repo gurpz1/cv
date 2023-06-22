@@ -20,7 +20,7 @@ export default defineComponent({
         }
     },
     props: {
-        workProfile: [Object]
+        workProfile: {type:[Object], required: true}
     },
     computed: {
         mostRecentWork: function() {
