@@ -4,11 +4,13 @@ import { defineComponent } from 'vue';
 import SocialProfileIcon from '@/components/SocialProfileIcon.vue'
 
 import Card from 'primevue/card';
+import Divider from 'primevue/divider';
 
 
 export default defineComponent({
     components: {
         Card,
+        Divider,
         SocialProfileIcon
     },
     props: {
@@ -21,7 +23,10 @@ export default defineComponent({
                     class: "flex flex-nowrap flex-column"
                 },
                 body: {
-                    class: "relative h-full lg:text-lg md:text-sm"
+                    class: "relative h-full text-sm"
+                },
+                content: {
+                    class: '-mt-4'
                 },
                 footer: {
                     class: "bottom-0  left-0 pb-2 absolute w-full"
@@ -49,7 +54,8 @@ export default defineComponent({
         
         <template #title> {{ this.basicProfile.name }} </template>
         
-        <template #subtitle> {{ this.basicProfile.label }} </template>
+        <template #subtitle> {{ this.basicProfile.label }}<span><Divider/></span> </template>
+
         
         <template #content>
             <p v-html="this.basicProfile.summary"></p>

@@ -20,13 +20,13 @@ import WorkExperience from '@/components/WorkExperience.vue'
         xl:col-3"
         style="height: 93vh">
         
-        <ProfileBar :basic-profile="resume.data.basics" class="bg-primary h-full"/>
+        <ProfileBar :basic-profile="resume.data.basics" class="surface-100 h-full"/>
       </aside>
 
       <div class="col">
-        <Card class="bg-primary">
+        <Card class="surface-100">
             <template #title>
-                Work Experience
+                Experience
             </template>
             <template #content>
                 <WorkExperience :work-profile="resume.data.work" />
