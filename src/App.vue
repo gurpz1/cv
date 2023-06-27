@@ -1,13 +1,15 @@
 <script setup>
 
 import Card from 'primevue/card';
+import Divider from 'primevue/divider';
+import Image from 'primevue/image';
 
 
 import { resumeStore } from '@/stores/resume'
 const resume = resumeStore()
 
 import ProfileBar from '@/components/ProfileBar.vue'
-import ProjectsCard from './components/ProjectsCard.vue';
+import ProjectCard from './components/ProjectCard.vue';
 import WorkExperience from '@/components/WorkExperience.vue'
 
 </script>
@@ -15,12 +17,12 @@ import WorkExperience from '@/components/WorkExperience.vue'
 <template>
     <div class="grid">
       <aside class="
-        col-12
+        col-3
         xl:col-3
         lg:col-4
         md:col-5
         sm:col-5"
-        style="height: 93vh">
+        >
         
         <ProfileBar 
           :basic-profile="resume.data.basics"
@@ -28,7 +30,7 @@ import WorkExperience from '@/components/WorkExperience.vue'
           class="surface-100 h-full"/>
       </aside>
 
-      <div class="col-12 xl:col lg:col md:col sm:col">
+      <div class="col">
         <Card class="surface-100">
             <template #title>
                 Experience
@@ -43,7 +45,30 @@ import WorkExperience from '@/components/WorkExperience.vue'
             Projects
           </template>
           <template #content>
-            <ProjectsCard :projects="resume.data.projects"/>
+              <ProjectCard 
+                :name="resume.data.projects[0].name"
+                :summary="resume.data.projects[0].summary"
+                :highlights="resume.data.projects[0].highlights">
+
+                <Image src="/src/assets/network.svg" width="200" alt="Network Diagram" preview />
+              </ProjectCard>
+              
+              <Divider/>
+              
+              <ProjectCard 
+                :name="resume.data.projects[1].name"
+                :summary="resume.data.projects[1].summary"
+                :highlights="resume.data.projects[1].highlights">
+
+                <iframe
+                  :src="resume.data.projects[1].url"
+                  :title="resume.data.projects[1].name"
+                  style="height:30svh; width: 100%; max-width: 650px;"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </ProjectCard>
+
           </template>
         </Card>
       </div>
