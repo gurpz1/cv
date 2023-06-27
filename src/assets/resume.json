@@ -39,13 +39,17 @@
         "summary": "I am a visionary engineering leader delivering business growth by unlocking value for engineering first organisations through optimisation of processes. <br/> <br/> I have experience in leading successful cross-functional teams, fostering collaboration and leveraging technology to achieve business objectives.",
         "website": "http://gurpalsagoo.com" 
     },
-    "certificates": [{
-        "name": "Leadership",
-        "date": "2020-11-07",
-        "issuer": "Hult Ashridge",
-        "url": "https://www.hult.edu/"
-    }],
+    "certificates": [],
     "education": [
+        {
+            "area": "Executive Leadership",
+            "courses": [],
+            "endDate": "",
+            "institution": "Hult Ashridge",
+            "startDate": "2019",
+            "studyType": "",
+            "picture": "/src/assets/hult_ashridge_logo.svg"
+        },
         {
             "area": "Physics",
             "courses": [],
@@ -105,10 +109,11 @@
     "projects": [
         {
             "name": "Homelab",
-            "summary": "For home automation and learning new tech.",
+            "summary": "Lab environment to play with new software and home automation",
             "endDate": "",
             "highlights": [
-                "Playground to experiment with new technologies"
+                "Requirement - have a lab environment to experiment with and learn new technologies.",
+                "Architected Docker environment containing alerting, log aggregation, monitoring and SSO services."
             ],
             "keywords": [
                 "Docker",
@@ -125,9 +130,9 @@
             "summary": "Push PC racing game data to an unmodified dashboard using an Arduino.",
             "endDate": "2012-02-01",
             "highlights": [
-                "Designed circuit diagram for shift lights/tft screen.",
-                "Modified PC power supply to power dashboard and lights.",
-                "Gained understanding of CANBus."
+                "Designed and built custom circuit to power a car instrument cluster using a PC.",
+                "Modified an existing PC power supply to provide power to entire setup.",
+                "Authored custom Arduino firmware converting Serial data to CANBus messages."
             ],
             "keywords": [
                 "Arduino",
@@ -257,7 +262,8 @@
             "company": "G-Research",
             "endDate": "2023-02-01",
             "highlights": [
-                "Responsible for Build, Test, Release of the in-house High Frequency Trading Platform"
+                "Responsible for Build, Test, Release of the in-house High Frequency Trading Platform."
+                
             ],
             "position": "Realtime Platform Release Engineering",
             "startDate": "2022-01-01",
@@ -271,9 +277,11 @@
             "highlights": [
                 "Seeded a new team responsible for operational integrity of the in-house high frequency trading platform.<br/>Responsibilities included (but not limited to):<ul><li> The test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li></ul>",
                 "Changed organisational perspective of traditional Operations from Analyst driven, to Engineer driven.",
-                "Delivered an automated UAT framework leading to a 3x increase in platform version upgrades.",
-                "Grew the team from 3 people to 7 with ranging levels of experience and expertise.",
-                "Conducted active 1-to-1 career focused discussions with team resulting in measurable knowledge uplifts."
+                "Delivered an automated UAT framework leading to a <b>3x</b> increase in platform version upgrades.",
+                "Transitioned a manual release process to one orchestrated via a Business Process Engine resulting in significantly less context switching.",
+                "Developed a high performing team from 3 to 7 with ranging levels of experience.",
+                "Conducted active 1-to-1 career focused discussions resulting in measurable knowledge uplift.",
+                "Lead continuous feedback sessions with key stakeholders to constantly improve own processes."
             ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",

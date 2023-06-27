@@ -1,9 +1,14 @@
 <script lang="js">
-import { ref,defineComponent } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
     props: {
-        educationProfile: {type: [Object], required: true}
+        institution: {type: String, required: true},
+        studyType: {type: String, required: true},
+        area: {type: String, required: true},
+        startDate: {type: Date},
+        endDate: {type: Date},
+        picture: {type: String, required: true}
     },
     data: function() {
         return {
@@ -12,39 +17,48 @@ export default defineComponent({
         }
     },
     methods: {
-        humanReadableDate: function(dateString) {
+        humanReadableDate: function(date) {
             let options  = {
                 year: "numeric"
             }
-            return new Date(dateString).toLocaleDateString(undefined, options)
+            return date.toLocaleDateString(undefined, options)
         },
-    },
-    computed: {
-        latestEducation: function() {
-            return this.educationProfile[0];
+        isValidDate: function(date) {
+            return date instanceof Date && !isNaN(date.valueOf());
         }
     }
 })
 </script>
 
 <template>
-    <div class="flex flex-row align-items-center">
+    <div class="flex flex-row align-items-center justify-content-start">
         <img
             alt="institute-logo"
-            :src="this.latestEducation.picture"
-            class="border-circle max-h-2rem mr-2"
+            :src="this.picture"
+            class="border-round 
+                w-3rem
+                mr-2"
         />
         <div class="flex-column">
-            <div class="
-            font-medium
-            line-height-4"> {{ this.latestEducation.institution }}</div>
-            <div class="
-            line-height-4">{{ this.latestEducation.studyType }} {{ this.latestEducation.area }}</div>
-            <div class="
-            line-height-4
-            font-italic
-            ">{{ this.humanReadableDate(this.latestEducation.startDate) }} - 
-                {{ this.humanReadableDate(this.latestEducation.endDate) }}</div>
+            
+            <div class="flex font-medium line-height-4">
+                {{ this.institution }}
+            </div>
+            
+            <div class="flex line-height-4">
+                {{ this.studyType }} {{ this.area }}
+            </div>
+            
+
+            <template class="flex line-height-4 font-italic">
+                <div v-if="isValidDate(this.startDate) && isValidDate(this.endDate)">
+                    {{ this.humanReadableDate(this.startDate) }} - {{ this.humanReadableDate(this.endDate) }}
+                </div>
+                <div v-if="isValidDate(this.startDate) && !isValidDate(this.endDate)">
+                    {{ this.humanReadableDate(this.startDate) }}
+                </div>
+            </template>
+
         </div>
     </div>
 </template>

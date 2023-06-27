@@ -21,18 +21,19 @@ export default defineComponent({
     },
     data: function() {
         return {
+            maxEducationItems:2,
             cardProperties: {
                 root: {
                     class: "flex flex-nowrap flex-column"
                 },
                 body: {
-                    class: "relative h-full text-sm"
+                    class: "h-full text-sm"
                 },
                 content: {
                     class: '-mt-4'
                 },
                 footer: {
-                    class: "bottom-0  left-0 pb-2 absolute w-full"
+                    class: "pb-2 w-full"
                 }
             }
         }
@@ -68,10 +69,29 @@ export default defineComponent({
             <p v-html="this.basicProfile.summary"></p>
             <Divider />
             <h3>Education</h3>
-            <EducationCard class="-mt-2" :education-profile="this.educationProfile" />
+            <template 
+                v-for="(education, index) in this.educationProfile.slice(0,this.maxEducationItems)"
+                :key="education.area">
+                <EducationCard
+                    :class="{'-mt-2': index === 0}"
+                    class="gap-2"
+                    :institution="education.institution"
+                    :studyType="education.studyType"
+                    :area="education.area"
+                    :startDate="new Date(education.startDate)"
+                    :endDate="new Date(education.endDate)"
+                    :picture="education.picture"
+                     />
+                <Divider v-if="index < maxEducationItems - 1" class="flex w-3rem"/>
+            </template>
+                
+            
+            <Divider />
+
         </template>
         
         <template #footer>
+            
             <div class="flex justify-content-center column-gap-3">
                 <SocialProfileIcon
                 class="text-3xl"
