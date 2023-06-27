@@ -1,8 +1,13 @@
 <script lang="js">
+
 import { defineComponent } from 'vue';
 
+import Card from 'primevue/card';
 
 export default defineComponent({
+    components: {
+        Card
+    },
     props: {
         name: { type: String, required: true },
         summary: { type: String, required: true },
@@ -70,7 +75,11 @@ export default defineComponent({
                 h-full
                 sm:gap-2"
             v-if="this.hasSlots">
-            <slot />
+            <Card>
+                <template #content>
+                    <slot />
+                </template>
+            </Card>
         </div>
     </div>
 

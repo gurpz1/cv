@@ -1,16 +1,14 @@
 <script setup>
 
 import Card from 'primevue/card';
-import Divider from 'primevue/divider';
-import Image from 'primevue/image';
 
 
 import { resumeStore } from '@/stores/resume'
 const resume = resumeStore()
 
 import ProfileBar from '@/components/ProfileBar.vue'
-import ProjectCard from './components/ProjectCard.vue';
 import WorkExperience from '@/components/WorkExperience.vue'
+import ProjectsProfile from './components/ProjectsProfile.vue';
 
 </script>
 
@@ -45,30 +43,7 @@ import WorkExperience from '@/components/WorkExperience.vue'
             Projects
           </template>
           <template #content>
-              <ProjectCard 
-                :name="resume.data.projects[0].name"
-                :summary="resume.data.projects[0].summary"
-                :highlights="resume.data.projects[0].highlights">
-
-                <Image src="/src/assets/network.svg" width="200" alt="Network Diagram" preview />
-              </ProjectCard>
-              
-              <Divider/>
-              
-              <ProjectCard 
-                :name="resume.data.projects[1].name"
-                :summary="resume.data.projects[1].summary"
-                :highlights="resume.data.projects[1].highlights">
-
-                <iframe
-                  :src="resume.data.projects[1].url"
-                  :title="resume.data.projects[1].name"
-                  style="height:30svh; width: 100%; max-width: 650px;"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-              </ProjectCard>
-
+            <ProjectsProfile :projects-profile="resume.data.projects" />
           </template>
         </Card>
       </div>
