@@ -76,7 +76,7 @@ export default defineComponent({
             v-if="this.hasSlots">
             <Card>
                 <template #content>
-                    <slot />
+                    <slot></slot>
                 </template>
             </Card>
         </div>

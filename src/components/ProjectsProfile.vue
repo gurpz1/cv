@@ -29,7 +29,10 @@ export default defineComponent({
                 alt="Network Diagram"
                 preview
                 :pt="{
-                    image: {class:'w-15rem'}
+                    image: {
+                        class: 'project-side-card', 
+                        style: 'mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%);'
+                    }
                 }">
             </Image>
         </Project>
@@ -44,9 +47,19 @@ export default defineComponent({
             <iframe
                 :src="this.projectsProfile[1].url"
                 :title="this.projectsProfile[1].name"
-                class="w-15rem"
+                class="project-side-card"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
             </iframe>
     </Project>
 </template>
+
+<style>
+.project-side-card {
+    width: 15rem;
+    max-height: 15rem;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+}
+</style>
