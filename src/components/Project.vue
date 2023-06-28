@@ -52,7 +52,6 @@ export default defineComponent({
             mt-4">
         <div class="flex 
                 flex-column
-                justify-content-center
                 w-full">
             <div v-for="(highlight,index) in this.highlights" :key="highlight"
                 class="
