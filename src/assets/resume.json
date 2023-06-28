@@ -262,8 +262,12 @@
             "company": "G-Research",
             "endDate": "2023-02-01",
             "highlights": [
-                "Responsible for Build, Test, Release of the in-house High Frequency Trading Platform."
-                
+                "Responsible for Build, Test, Release of the in-house High Frequency Trading Platform.",
+                "Continued to lead automation for Research Releases in an effort to reduce human context switching.",
+                "Lead the simplification of testing pipeline by parallelising complex, long running tests up the testing pyramid.",
+                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages speed up commit to production.",
+                "Coached aspiring engineers to manage and mentor an intern.",
+                "Relentlessly pushed engineers to continuously evolve their technical toolbox."
             ],
             "position": "Realtime Platform Release Engineering Manager",
             "startDate": "2022-01-01",
@@ -275,10 +279,11 @@
             "company": "G-Research",
             "endDate": "2021-12-31",
             "highlights": [
-                "Seeded a new team responsible for operational integrity of the in-house high frequency trading platform.<br/>Responsibilities included (but not limited to):<ul><li> The test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li></ul>",
+                "Seeded a new team responsible for operational integrity of the in-house high frequency trading platform.<br/>Responsibilities included (but not limited to):<ul><li> Research test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li></ul>",
                 "Changed organisational perspective of traditional Operations from Analyst driven, to Engineer driven.",
                 "Delivered an automated UAT framework leading to a <b>3x</b> increase in platform version upgrades.",
                 "Transitioned a manual release process to one orchestrated via a Business Process Engine resulting in significantly less context switching.",
+                "Developed release monitoring dashboards for status transparency with key process stakeholders.",
                 "Developed a high performing team from 3 to 7 with ranging levels of experience.",
                 "Conducted active 1-to-1 career focused discussions resulting in measurable knowledge uplift.",
                 "Lead continuous feedback sessions with key stakeholders to constantly improve own processes."
