@@ -1,7 +1,7 @@
 <script lang="js">
 import { defineComponent } from 'vue';
 
-import Project from '@/components/Project.vue'
+import ProjectItem from '@/components/ProjectItem.vue'
 
 import Image from 'primevue/image';
 import Divider from 'primevue/divider';
@@ -10,7 +10,7 @@ export default defineComponent({
     components: {
         Divider,
         Image,
-        Project
+        ProjectItem
     },
     props: {
         projectsProfile: { type: Array, required: true },
@@ -19,7 +19,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <Project 
+    <ProjectItem 
         :name="this.projectsProfile[0].name"
         :summary="this.projectsProfile[0].summary"
         :highlights="this.projectsProfile[0].highlights">
@@ -35,11 +35,11 @@ export default defineComponent({
                     }
                 }">
             </Image>
-        </Project>
+        </ProjectItem>
         
     <Divider/>
         
-    <Project 
+    <ProjectItem 
         :name="this.projectsProfile[1].name"
         :summary="this.projectsProfile[1].summary"
         :highlights="this.projectsProfile[1].highlights">
@@ -51,7 +51,7 @@ export default defineComponent({
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
             </iframe>
-    </Project>
+    </ProjectItem>
 </template>
 
 <style>

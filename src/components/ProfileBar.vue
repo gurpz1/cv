@@ -2,7 +2,7 @@
 import { defineComponent } from 'vue';
 
 import SocialProfileIcon from '@/components/SocialProfileIcon.vue'
-import EducationCard from './EducationCard.vue';
+import EducationItem from './EducationItem.vue';
 
 import Card from 'primevue/card';
 import Divider from 'primevue/divider';
@@ -13,7 +13,7 @@ export default defineComponent({
     Card,
     Divider,
     SocialProfileIcon,
-    EducationCard
+    EducationItem
 },
     props: {
         basicProfile: {type: [Object], required: true},
@@ -72,7 +72,7 @@ export default defineComponent({
             <template 
                 v-for="(education, index) in this.educationProfile.slice(0,this.maxEducationItems)"
                 :key="education.area">
-                <EducationCard
+                <EducationItem
                     :class="{'-mt-2': index === 0}"
                     class="gap-2"
                     :institution="education.institution"

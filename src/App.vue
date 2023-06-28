@@ -7,8 +7,8 @@ import { resumeStore } from '@/stores/resume'
 const resume = resumeStore()
 
 import ProfileBar from '@/components/ProfileBar.vue'
-import WorkExperience from '@/components/WorkExperience.vue'
-import ProjectsProfile from './components/ProjectsProfile.vue';
+import WorkExperienceCard from '@/components/WorkExperienceCard.vue'
+import ProjectsCard from './components/ProjectsCard.vue';
 
 </script>
 
@@ -34,7 +34,7 @@ import ProjectsProfile from './components/ProjectsProfile.vue';
                 Experience
             </template>
             <template #content>
-                <WorkExperience :work-profile="resume.data.work" />
+                <WorkExperienceCard :work-profile="resume.data.work" />
             </template>
         </Card>
         
@@ -43,7 +43,7 @@ import ProjectsProfile from './components/ProjectsProfile.vue';
             Projects
           </template>
           <template #content>
-            <ProjectsProfile :projects-profile="resume.data.projects" />
+            <ProjectsCard :projects-profile="resume.data.projects" />
           </template>
         </Card>
       </div>
