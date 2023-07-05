@@ -79,12 +79,18 @@ export default defineComponent({
             flex-grow-1
             pl-4
             ml-5
+            mt-2" style="flex-basis: 100%;"
+        >
+            <p 
+            class="mt-1
+            mb-1
+            line-height-2
             text-sm
             xl:text-sm
             lg:text-sm
             md:text-xs
-            sm:text-xs" style="flex-basis: 100%;">
-            <p v-for="highlight in this.workItem.highlights" :key="highlight" v-html="highlight">
+            sm:text-xs"
+            v-for="highlight in this.workItem.highlights" :key="highlight" v-html="highlight">
             </p>
         </div>
     </div>
