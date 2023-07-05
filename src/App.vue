@@ -15,7 +15,8 @@ import ProjectsCard from './components/ProjectsCard.vue';
 <template>
     <div class="grid">
       <aside class="
-        col-3
+        col
+        profile-bar-print
         xl:col-3
         lg:col-4
         md:col-5
@@ -50,3 +51,14 @@ import ProjectsCard from './components/ProjectsCard.vue';
     </div>
 
 </template>
+
+<style scoped>
+@media print {
+  .profile-bar-print {
+    flex: 0 0 auto !important;
+    padding: 0.5rem !important;
+    width: 40% !important;
+    height: fit-content !important;
+  }
+}
+</style>
