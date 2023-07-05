@@ -1,4 +1,22 @@
 {
+    "achievements": [
+        {
+            "name": "Mount Kilimanjaro",
+            "startDate": "2023-02-05",
+            "endDate": "2023-02-10",
+            "summary": "Successfully conquered the tallest free standing mountain in the world, raising over £11,000 for Parkinson's UK in the process",
+            "picture": "/src/assets/kilimanjaro.jpg",
+            "url": "https://www.justgiving.com/fundraising/kam-sagoo"
+        },
+        {
+            "name": "UK Three Peaks Challenge",
+            "startDate": "2018-08-21",
+            "endDate": "2018-08-21",
+            "summary": "Summited the 3 highest peaks in the UK, completing the challenge within 24 hours and raising more than £2,000 for Parkinson's UK.",
+            "picture": "/src/assets/three_peaks.jpg",
+            "url": "https://www.justgiving.com/fundraising/sagoo-siblings"
+        }
+    ],
     "awards": [],
     "basics": {
         "email": "gurpal@sagoo.io",
