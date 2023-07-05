@@ -1,6 +1,7 @@
 <script lang="js">
 import { defineComponent } from 'vue';
 
+import AchievementItem from './AchievementItem.vue';
 import SocialProfileIcon from '@/components/SocialProfileIcon.vue'
 import EducationItem from './EducationItem.vue';
 
@@ -13,11 +14,13 @@ export default defineComponent({
     Card,
     Divider,
     SocialProfileIcon,
-    EducationItem
+    EducationItem,
+    AchievementItem,
 },
     props: {
         basicProfile: {type: [Object], required: true},
-        educationProfile: {type: [Object], required: true}
+        educationProfile: {type: [Object], required: true},
+        achievementProfile: {type: [Object], required: true}
     },
     data: function() {
         return {
@@ -68,6 +71,8 @@ export default defineComponent({
         <template #content>
             <p v-html="this.basicProfile.summary"></p>
             <Divider />
+            
+            <!-- Education -->
             <h3>Education</h3>
             <template 
                 v-for="(education, index) in this.educationProfile.slice(0,this.maxEducationItems)"
@@ -78,14 +83,29 @@ export default defineComponent({
                     :institution="education.institution"
                     :studyType="education.studyType"
                     :area="education.area"
-                    :startDate="new Date(education.startDate)"
-                    :endDate="new Date(education.endDate)"
+                    :start-date="new Date(education.startDate)"
+                    :end-date="new Date(education.endDate)"
                     :picture="education.picture"
                      />
                 <Divider v-if="index < maxEducationItems - 1" class="flex w-3rem"/>
             </template>
                 
-            
+            <Divider />
+
+            <!-- Achievements -->
+            <h3>Achievements</h3>
+            <template
+                v-for="(achievement, index) in this.achievementProfile"
+                :key="achievement.name">
+                <AchievementItem
+                    :name="achievement.name"
+                    :summary="achievement.summary"
+                    :picture="achievement.picture"
+                    :url="achievement.url"
+                />
+                <Divider v-if="index < this.achievementProfile.length - 1" class="flex w-3rem"/>
+            </template>
+
             <Divider />
 
         </template>

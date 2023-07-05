@@ -26,6 +26,7 @@ import ProjectsCard from './components/ProjectsCard.vue';
         <ProfileBar 
           :basic-profile="resume.data.basics"
           :education-profile="resume.data.education"
+          :achievement-profile="resume.data.achievements"
           class="surface-100 h-full"/>
       </aside>
 
