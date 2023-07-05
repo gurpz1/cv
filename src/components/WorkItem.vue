@@ -1,7 +1,11 @@
 <script lang="js">
 import { defineComponent } from 'vue';
+import Divider from 'primevue/divider';
 
 export default defineComponent({
+    components: {
+        Divider
+    },
     props: {
         workItem: {type: [Object], required: true}
     },
@@ -74,12 +78,12 @@ export default defineComponent({
             {{ humanReadableDate(this.workItem.startDate, this.truncateDate) }} - {{ humanReadableDate(this.workItem.endDate, this.truncateDate) }}
             </div>
         </div>
+        <Divider class="w-3rem"/>
         <!-- Summary Paragraph -->
         <div class="flex-order-4
             flex-grow-1
             pl-4
-            ml-5
-            mt-2" style="flex-basis: 100%;"
+            ml-5" style="flex-basis: 100%;"
         >
             <p 
             class="mt-1
