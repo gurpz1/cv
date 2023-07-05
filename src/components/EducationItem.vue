@@ -10,12 +10,6 @@ export default defineComponent({
         endDate: {type: Date},
         picture: {type: String, required: true}
     },
-    data: function() {
-        return {
-            truncateDate: false,
-            mediaQuery: window.matchMedia('(max-width:768px)')
-        }
-    },
     methods: {
         humanReadableDate: function(date) {
             let options  = {
