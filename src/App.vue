@@ -2,9 +2,8 @@
 
 import Card from 'primevue/card';
 
-
-import { resumeStore } from '@/stores/resume'
-const resume = resumeStore()
+import AssetRegistry from './assets/asset_registry';
+const resume = AssetRegistry.get("resume.json");
 
 import ProfileBar from '@/components/ProfileBar.vue'
 import WorkExperienceCard from '@/components/WorkExperienceCard.vue'
@@ -24,9 +23,9 @@ import ProjectsCard from './components/ProjectsCard.vue';
         >
         
         <ProfileBar 
-          :basic-profile="resume.data.basics"
-          :education-profile="resume.data.education"
-          :achievement-profile="resume.data.achievements"
+          :basic-profile="resume.basics"
+          :education-profile="resume.education"
+          :achievement-profile="resume.achievements"
           class="surface-100 h-full"/>
       </aside>
 
@@ -36,7 +35,7 @@ import ProjectsCard from './components/ProjectsCard.vue';
                 Experience
             </template>
             <template #content>
-                <WorkExperienceCard :work-profile="resume.data.work" />
+                <WorkExperienceCard :work-profile="resume.work" />
             </template>
         </Card>
         
@@ -45,7 +44,7 @@ import ProjectsCard from './components/ProjectsCard.vue';
             Projects
           </template>
           <template #content>
-            <ProjectsCard :projects-profile="resume.data.projects" />
+            <ProjectsCard :projects-profile="resume.projects" />
           </template>
         </Card>
       </div>

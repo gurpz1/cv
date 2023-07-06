@@ -5,7 +5,7 @@
             "startDate": "2023-02-05",
             "endDate": "2023-02-10",
             "summary": "Successfully conquered the tallest free standing mountain in the world, raising over £31,000 for Parkinson's UK in the process",
-            "picture": "/src/assets/kilimanjaro.jpg",
+            "picture": "kilimanjaro.jpg",
             "url": "https://www.justgiving.com/fundraising/kam-sagoo"
         },
         {
@@ -13,7 +13,7 @@
             "startDate": "2018-08-21",
             "endDate": "2018-08-21",
             "summary": "Summited the 3 highest peaks in the UK, completing the challenge within 24 hours and raising more than £2,000 for Parkinson's UK.",
-            "picture": "/src/assets/three_peaks.jpg",
+            "picture": "three_peaks.jpg",
             "url": "https://www.justgiving.com/fundraising/sagoo-siblings"
         }
     ],
@@ -30,7 +30,7 @@
         },
         "name": "Gurpal Sagoo",
         "phone": "",
-        "picture": "/src/assets/profile.png",
+        "picture": "profile.png",
         "profiles": [
             {
                 "network": "Email",
@@ -66,7 +66,7 @@
             "institution": "Hult Ashridge",
             "startDate": "2019",
             "studyType": "",
-            "picture": "/src/assets/hult_ashridge_logo.svg"
+            "picture": "hult_ashridge_logo.svg"
         },
         {
             "area": "Physics",
@@ -75,7 +75,7 @@
             "institution": "University College London",
             "startDate": "2008-09-01",
             "studyType": "MSci",
-            "picture": "/src/assets/ucl_logo.png"
+            "picture": "ucl_logo.png"
         },
         {
             "area": "Mathematics, Physics, Biology",
@@ -84,7 +84,7 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "A Levels",
-            "picture": "/src/assets/havering_logo.jpg"
+            "picture": "havering_logo.jpg"
         },
         {
             "area": "Further Mathematics, Chemistry, ICT",
@@ -93,7 +93,7 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "AS Levels",
-            "picture": "/src/assets/havering_logo.jpg"
+            "picture": "havering_logo.jpg"
         }
     ],
     "interests": [
@@ -142,6 +142,7 @@
                 "Developer"
             ],
             "startDate": "2023-01-01",
+            "picture":"network.svg" ,
             "url": "https://github.com/gurpz1/home-lab"
         },
         {
@@ -236,7 +237,7 @@
             "startDate": "2012-10-01",
             "summary": "Assisted with A Level Physics tutoring at the Bridge Academy and mentored a 17 year old throughout A Levels",
             "website": "",
-            "picture": "/src/assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "endDate": "2014-06-01",
@@ -248,7 +249,7 @@
             "startDate": "2014-01-01",
             "summary": "Hackney school children compete with one another in a variety of interesting sports.",
             "website": "",
-            "picture": "/src/assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "endDate": "2013-07-01",
@@ -260,7 +261,7 @@
             "startDate": "2013-01-01",
             "summary": "Networking event consisting of UBS Champions with old and new graduates.",
             "website": "",
-            "picture": "/src/assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "endDate": "2011-06-01",
@@ -272,7 +273,7 @@
             "startDate": "2010-06-01",
             "summary": "UCL's only motorsport society",
             "website": "",
-            "picture": "/src/assets/ucl_logo.png"
+            "picture": "ucl_logo.png"
         }
     ],
     "work": [
@@ -291,7 +292,7 @@
             "startDate": "2022-01-01",
             "summary": "Responsible for Build, Test Release of High Frequency Trading Platform.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "/src/assets/gresearch_logo.png"
+            "picture": "gresearch_logo.png"
         },
         {
             "company": "G-Research",
@@ -310,7 +311,7 @@
             "startDate": "2018-05-01",
             "summary": "Responsible for operational integrity of the in-house High Frequency Trading Platform.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "/src/assets/gresearch_logo.png"
+            "picture": "gresearch_logo.png"
         },
         {
             "company": "G-Research",
@@ -325,7 +326,7 @@
             "startDate": "2015-06-01",
             "summary": "Responsible for live trading environment.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "/src/assets/gresearch_logo.png"
+            "picture": "gresearch_logo.png"
         },
         {
             "company": "UBS",
@@ -341,7 +342,7 @@
             "startDate": "2013-10-01",
             "summary": "Responsible for the delivery of greenfield applications utilising many different technologies within 'Advisory and Research IT'",
             "website": "https://www.ubs.com",
-            "picture": "/src/assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "company": "UBS",
@@ -356,7 +357,7 @@
             "startDate": "2012-09-01",
             "summary": "Graduate Training Programme. Placed within 'Platform Services - Unix Service Delivery'",
             "website": "https://www.ubs.com",
-            "picture": "/src/assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "company": "UBS",
@@ -370,7 +371,7 @@
             "startDate": "2011-09-01",
             "summary": "6 week technical internship within 'Clearing & Settlement IT Production Services'",
             "website": "https://www.ubs.com",
-            "picture": "/src/assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "company": "Primark",
@@ -380,7 +381,7 @@
             "startDate": "2009-10-01",
             "summary": "",
             "website": "https://www.primark.com",
-            "picture": "/src/assets/primark_logo.png"
+            "picture": "primark_logo.png"
         },
         {
             "company": "University College London",
@@ -390,7 +391,7 @@
             "startDate": "2009-09-01",
             "summary": "Guided a group of first year undergraduates who had just started their degrees to ease their transition into university.",
             "website": "https://www.ucl.ac.uk",
-            "picture": "/src/assets/ucl_logo.png"
+            "picture": "ucl_logo.png"
         }
     ]
 }

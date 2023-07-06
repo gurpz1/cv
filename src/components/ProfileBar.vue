@@ -1,6 +1,8 @@
 <script lang="js">
 import { defineComponent } from 'vue';
 
+import AssetRegistry from '@/assets/asset_registry';
+
 import AchievementItem from './AchievementItem.vue';
 import SocialProfileIcon from '@/components/SocialProfileIcon.vue'
 import EducationItem from './EducationItem.vue';
@@ -38,7 +40,8 @@ export default defineComponent({
                 footer: {
                     class: "pb-2 w-full"
                 }
-            }
+            },
+            AssetRegistry
         }
     }
 })
@@ -53,7 +56,7 @@ export default defineComponent({
             >
                 <img
                     alt="profile"
-                    :src="this.basicProfile.picture"
+                    :src="this.AssetRegistry.get(this.basicProfile.picture)"
                     class="border-circle w-6 shadow-3"
                 />
             </div>

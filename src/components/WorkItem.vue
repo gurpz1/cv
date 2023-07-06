@@ -1,5 +1,8 @@
 <script lang="js">
 import { defineComponent } from 'vue';
+
+import AssetRegistry from '@/assets/asset_registry';
+
 import Divider from 'primevue/divider';
 
 export default defineComponent({
@@ -12,7 +15,8 @@ export default defineComponent({
     data: function() {
         return {
             truncateDate: false,
-            mediaQuery: window.matchMedia('(max-width:768px)')
+            mediaQuery: window.matchMedia('(max-width:768px)'),
+            AssetRegistry
         }
     },
     methods: {
@@ -45,7 +49,7 @@ export default defineComponent({
                 <a :href="this.workItem.website" target="_blank" class="mr-2">
                     <img
                         alt="company-logo"
-                        :src="this.workItem.picture"
+                        :src="this.AssetRegistry.get(this.workItem.picture)"
                         class="border-circle max-h-3rem "
                     />
                 </a>

@@ -1,6 +1,9 @@
 <script lang="js">
 import { defineComponent } from 'vue';
 
+import AssetRegistry from '@/assets/asset_registry';
+
+
 export default defineComponent({
     props: {
         institution: {type: String, required: true},
@@ -9,6 +12,11 @@ export default defineComponent({
         startDate: {type: Date},
         endDate: {type: Date},
         picture: {type: String, required: true}
+    },
+    data: function() {
+        return {
+            AssetRegistry
+        }
     },
     methods: {
         humanReadableDate: function(date) {
@@ -28,7 +36,7 @@ export default defineComponent({
     <div class="flex flex-row align-items-center justify-content-start">
         <img
             alt="institute-logo"
-            :src="this.picture"
+            :src="this.AssetRegistry.get(this.picture)"
             class="border-round 
                 w-3rem
                 mr-2"
