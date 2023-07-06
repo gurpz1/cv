@@ -12,7 +12,7 @@ import ucl_logo from './ucl_logo.png'
 import * as resume from './resume.json'
 
 
-let AssetRegistry = new Map([
+const AssetRegistry = new Map([
     ["gresearch_logo.png", gresearch_logo],
     ["havering_logo.jpg", havering_logo],
     ["hult_ashridge_logo.svg", hult_ashridge_logo],
