@@ -25,6 +25,9 @@
     "primeicons": "^6.0.1",
     "primevue": "^3.29.2",
     "sass": "^1.63.4",
-    "vite": "^4.3.9"
+    "sharp": "^0.32.1",
+    "svgo": "^3.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-image-optimizer": "^1.1.6"
   }
 }
