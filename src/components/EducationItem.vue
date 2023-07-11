@@ -11,7 +11,8 @@ export default defineComponent({
         area: {type: String, required: true},
         startDate: {type: Date},
         endDate: {type: Date},
-        picture: {type: String, required: true}
+        picture: {type: String, required: true},
+        url: {type: String, required: true}
     },
     data: function() {
         return {
@@ -34,13 +35,15 @@ export default defineComponent({
 
 <template>
     <div class="flex flex-row align-items-center justify-content-start">
-        <img
-            alt="institute-logo"
-            :src="this.AssetRegistry.get(this.picture)"
-            class="border-round 
-                w-3rem
-                mr-2"
-        />
+        <a :href="this.url" target="_blank">
+            <img
+                alt="institute-logo"
+                :src="this.AssetRegistry.get(this.picture)"
+                class="border-round 
+                    w-3rem
+                    mr-2"
+            />
+        </a>
         <div class="flex-column">
             
             <div class="flex font-medium line-height-4">

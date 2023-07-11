@@ -89,6 +89,7 @@ export default defineComponent({
                     :start-date="new Date(education.startDate)"
                     :end-date="new Date(education.endDate)"
                     :picture="education.picture"
+                    :url="education.url"
                      />
                 <Divider v-if="index < maxEducationItems - 1" class="flex w-3rem"/>
             </template>
