@@ -134,7 +134,7 @@
             "summary": "Lab environment to play with new software and home automation",
             "endDate": "",
             "highlights": [
-                "Requirement - have a lab environment to experiment with and learn new technologies.",
+                "Created a lab environment to experiment with and learn new technologies.",
                 "Architected Docker environment containing alerting, log aggregation, monitoring and SSO services."
             ],
             "keywords": [
@@ -150,11 +150,11 @@
             "url": "https://github.com/gurpz1/home-lab"
         },
         {
-            "summary": "Push PC racing game data to an unmodified dashboard using an Arduino.",
+            "summary": "Pushed PC racing game data to an unmodified dashboard using an Arduino.",
             "endDate": "2012-02-01",
             "highlights": [
-                "Designed and built custom circuit to power a car instrument cluster using a PC.",
-                "Modified an existing PC power supply to provide power to entire setup.",
+                "Designed and built custom circuit to control a car instrument cluster over USB.",
+                "Modified a PC power supply to power entire setup.",
                 "Authored custom Arduino firmware converting Serial data to CANBus messages."
             ],
             "keywords": [
