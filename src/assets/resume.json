@@ -54,7 +54,7 @@
                 "username": "g__pz"
             }
         ],
-        "summary": "I am a visionary engineering leader delivering business growth by unlocking value for engineering first organisations through optimisation of processes. <br/> <br/> I have experience in leading successful cross-functional teams, fostering collaboration and leveraging technology to achieve business objectives.",
+        "summary": "I am a visionary engineering leader experienced in fostering collaboration, leading successful cross-functional teams and leveraging technology to achieve business objectives.",
         "website": "http://gurpalsagoo.com" 
     },
     "certificates": [],
@@ -66,7 +66,8 @@
             "institution": "Hult Ashridge",
             "startDate": "2019",
             "studyType": "",
-            "picture": "hult_ashridge_logo.svg"
+            "picture": "hult_ashridge_logo.svg",
+            "url": "https://www.hult.edu/"
         },
         {
             "area": "Physics",
@@ -75,7 +76,8 @@
             "institution": "University College London",
             "startDate": "2008-09-01",
             "studyType": "MSci",
-            "picture": "ucl_logo.png"
+            "picture": "ucl_logo.png",
+            "url": "https://www.ucl.ac.uk/"
         },
         {
             "area": "Mathematics, Physics, Biology",
@@ -84,7 +86,8 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "A Levels",
-            "picture": "havering_logo.jpg"
+            "picture": "havering_logo.jpg",
+            "url": "https://www.ncclondon.ac.uk/havering-sixth-form-campus/"
         },
         {
             "area": "Further Mathematics, Chemistry, ICT",
@@ -93,7 +96,8 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "AS Levels",
-            "picture": "havering_logo.jpg"
+            "picture": "havering_logo.jpg",
+            "url": "https://www.ncclondon.ac.uk/havering-sixth-form-campus/"
         }
     ],
     "interests": [
@@ -281,12 +285,10 @@
             "company": "G-Research",
             "endDate": "2023-02-01",
             "highlights": [
-                "Responsible for Build, Test, Release of the in-house High Frequency Trading Platform.",
-                "Continued to lead automation for Research Releases in an effort to reduce human context switching.",
-                "Lead the simplification of testing pipeline by parallelising complex, long running tests up the testing pyramid.",
-                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages speed up commit to production.",
-                "Coached aspiring engineers to manage and mentor an intern.",
-                "Relentlessly pushed engineers to continuously evolve their technical toolbox."
+                "Responsible for build, test & release pipeline of the in-house High Frequency Trading platform.",
+                "Lead the engineering effort to automate research releases.",
+                "Lead the simplification of the testing pipeline by parallelising complex, long running overnight tests with an end goal of reducing an end to end 10 hour overnight sim to ~2 hours.",
+                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages and speed up commit to production time."
             ],
             "position": "Realtime Platform Release Engineering Manager",
             "startDate": "2022-01-01",
@@ -298,14 +300,14 @@
             "company": "G-Research",
             "endDate": "2021-12-31",
             "highlights": [
-                "Seeded a new team responsible for operational integrity of the in-house high frequency trading platform.<br/>Responsibilities included (but not limited to):<ul><li> Research test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li></ul>",
-                "Changed organisational perspective of traditional Operations from Analyst driven, to Engineer driven.",
+                "Seeded a new team responsible for operational integrity of the in-house High Frequency Trading platform.<br/>Responsibilities included (but not limited to):<ul><li> Research test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li><li>Batch compute</li></ul>",
+                "Scaled up to 7 high performing engineers with ranging experience levels.",
+                "Lead a mindset shift across the organisation by levelling up Operations Analysts to become Operations Engineers",
                 "Delivered an automated UAT framework leading to a <b>3x</b> increase in platform version upgrades.",
-                "Transitioned a manual release process to one orchestrated via a Business Process Engine resulting in significantly less context switching.",
-                "Developed release monitoring dashboards for status transparency with key process stakeholders.",
-                "Developed a high performing team from 3 to 7 with ranging levels of experience.",
-                "Conducted active 1-to-1 career focused discussions resulting in measurable knowledge uplift.",
-                "Lead continuous feedback sessions with key stakeholders to constantly improve own processes."
+                "Transitioned a hand cranked release process to one orchestrated via a Business Process Engine enabling a <b>10x</b> increase in research pipeline volume.",
+                "Provided team focus and stakeholder transparency by surfacing key insights surrounding the platform and research release processes.",
+                "Conducted active 1-to-1 career focused discussions resulting in direct reports transitioning from the Analyst Growth Framework to  Engineering Growth Framework.",
+                "Empowered engineers to take control of their learning during the organsation's transition to 'Cloud' technologies."
             ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",
@@ -318,8 +320,8 @@
             "endDate": "2018-05-01",
             "highlights": [
                 "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS enabling business critical workflows to be monitored and debugged at a glance.",
+                "Lead the design of service allocation across global CoLo estate to maximise hardware usage",
                 "Automated the allocation of services across our service estate allowing for maximum use of hardware using linear programming techniques in python",
-                "Lead a mindset shift across the organisation and levelled up Operations Analysts to become Operations Engineers",
                 "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries."
             ],
             "position": "Technical Operations Analyst",
