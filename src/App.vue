@@ -2,8 +2,7 @@
 
 import Card from 'primevue/card';
 
-import AssetRegistry from './assets/asset_registry';
-const resume = AssetRegistry.get("resume.json");
+import * as resume from '@/assets/resume.json';
 
 import ProfileBar from '@/components/ProfileBar.vue'
 import WorkExperienceCard from '@/components/WorkExperienceCard.vue'

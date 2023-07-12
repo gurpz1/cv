@@ -1,8 +1,6 @@
 <script lang="js">
 import { defineComponent } from 'vue';
 
-import AssetRegistry from '@/assets/asset_registry';
-
 import ProjectItem from '@/components/ProjectItem.vue'
 
 import Image from 'primevue/image';
@@ -13,11 +11,6 @@ export default defineComponent({
         Divider,
         Image,
         ProjectItem
-    },
-    data: function() {
-        return {
-            AssetRegistry
-        }
     },
     props: {
         projectsProfile: { type: Array, required: true },
@@ -32,7 +25,7 @@ export default defineComponent({
         :highlights="this.projectsProfile[0].highlights">
 
             <Image 
-                :src="this.AssetRegistry.get(this.projectsProfile[0].picture)"
+                :src="this.projectsProfile[0].picture"
                 alt="Network Diagram"
                 preview
                 :pt="{
