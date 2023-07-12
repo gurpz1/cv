@@ -1,39 +1,33 @@
 {
-  "name": "g-cv",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "cv",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gurpz1/cv.git"
+  "dependencies": {
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gurpz1/cv/issues"
-  },
-  "homepage": "https://github.com/gurpz1/cv#readme",
-  "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-angular-filesort": "^1.1.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-htmlhint": "^0.3.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-inject": "^4.2.0",
-    "gulp-jshint": "^2.0.4",
-    "gulp-less": "^3.3.0",
-    "gulp-load-plugins": "^1.5.0",
-    "gulp-ng-html2js": "^0.2.2",
-    "gulp-uglify": "^3.0.0",
-    "htmlhint-stylish": "^1.0.3",
-    "jshint-stylish": "^2.2.1",
-    "main-bower-files": "^2.13.1",
-    "path-exists": "^3.0.0"
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.29.2",
+    "sass": "^1.63.4",
+    "sharp": "^0.32.1",
+    "svgo": "^3.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-image-optimizer": "^1.1.6"
   }
 }

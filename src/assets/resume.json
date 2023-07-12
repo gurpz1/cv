@@ -1,7 +1,25 @@
 {
+    "achievements": [
+        {
+            "name": "Mount Kilimanjaro",
+            "startDate": "2023-02-05",
+            "endDate": "2023-02-10",
+            "summary": "Successfully conquered the tallest free standing mountain in the world, raising over £31,000 for Parkinson's UK in the process",
+            "picture": "kilimanjaro.jpg",
+            "url": "https://www.justgiving.com/fundraising/kam-sagoo"
+        },
+        {
+            "name": "UK Three Peaks Challenge",
+            "startDate": "2018-08-21",
+            "endDate": "2018-08-21",
+            "summary": "Summited the 3 highest peaks in the UK, completing the challenge within 24 hours and raising more than £2,000 for Parkinson's UK.",
+            "picture": "three_peaks.jpg",
+            "url": "https://www.justgiving.com/fundraising/sagoo-siblings"
+        }
+    ],
     "awards": [],
     "basics": {
-        "email": "contact@sagoo.io",
+        "email": "gurpal@sagoo.io",
         "label": "Technologist",
         "location": {
             "address": "",
@@ -12,17 +30,23 @@
         },
         "name": "Gurpal Sagoo",
         "phone": "",
-        "picture": "assets/profile.png",
+        "picture": "profile.png",
         "profiles": [
             {
                 "network": "Email",
+                "icon": "envelope",
                 "url": "mailto:gurpal@sagoo.io",
                 "username": "Email"
             },
             {
-                "network": "GitHub-Circle",
+                "network": "GitHub",
                 "url": "https://www.github.com/gurpz1",
                 "username": "gurpz1"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gsagoo",
+                "username": "gsagoo"
             },
             {
                 "network": "Instagram",
@@ -30,10 +54,21 @@
                 "username": "g__pz"
             }
         ],
-        "summary": "I am a self taught competent software developer with an eye for automation. I thrive under pressure and enjoy tackling challenging projects both horizontally with teams and individually.",
-        "website": "http://gurpalsagoo.com"
+        "summary": "I am a visionary engineering leader experienced in fostering collaboration, leading successful cross-functional teams and leveraging technology to achieve business objectives.",
+        "website": "http://gurpalsagoo.com" 
     },
+    "certificates": [],
     "education": [
+        {
+            "area": "Executive Leadership",
+            "courses": [],
+            "endDate": "",
+            "institution": "Hult Ashridge",
+            "startDate": "2019",
+            "studyType": "",
+            "picture": "hult_ashridge_logo.svg",
+            "url": "https://www.hult.edu/"
+        },
         {
             "area": "Physics",
             "courses": [],
@@ -41,7 +76,8 @@
             "institution": "University College London",
             "startDate": "2008-09-01",
             "studyType": "MSci",
-            "picture": "assets/ucl_logo.png"
+            "picture": "ucl_logo.png",
+            "url": "https://www.ucl.ac.uk/"
         },
         {
             "area": "Mathematics, Physics, Biology",
@@ -50,7 +86,8 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "A Levels",
-            "picture": "assets/havering_logo.jpg"
+            "picture": "havering_logo.jpg",
+            "url": "https://www.ncclondon.ac.uk/havering-sixth-form-campus/"
         },
         {
             "area": "Further Mathematics, Chemistry, ICT",
@@ -59,13 +96,26 @@
             "institution": "Havering Sixth Form College",
             "startDate": "2006-06-01",
             "studyType": "AS Levels",
-            "picture": "assets/havering_logo.jpg"
+            "picture": "havering_logo.jpg",
+            "url": "https://www.ncclondon.ac.uk/havering-sixth-form-campus/"
         }
     ],
     "interests": [
         {
-            "keywords": [],
-            "name": "Wildlife"
+            "keywords": [
+                "F1",
+                "Rallying",
+                "Road Cars"
+            ],
+            "name": "Automobiles"
+        },
+        {
+            "keywords": [
+                "Phones",
+                "Computers",
+                "Home Automation"
+            ],
+            "name": "Consumer Technology"
         }
     ],
     "languages": [
@@ -80,13 +130,32 @@
     ],
     "projects": [
         {
-            "description": "Push PC racing game data to an unmodified dashboard using an Arduino.",
-            "endDate": "2012-02-01",
-            "entity": "",
+            "name": "Homelab",
+            "summary": "Lab environment to play with new software and home automation",
+            "endDate": "",
             "highlights": [
-                "Designed circuit diagram for shift lights/tft screen.",
-                "Modified PC power supply to power dashboard and lights.",
-                "Gained understanding of CANBus."
+                "Created a lab environment to experiment with and learn new technologies.",
+                "Architected Docker environment containing alerting, log aggregation, monitoring and SSO services."
+            ],
+            "keywords": [
+                "Docker",
+                "Homelab",
+                "Monitoring"
+            ],
+            "roles": [
+                "Developer"
+            ],
+            "startDate": "2023-01-01",
+            "picture":"network.svg" ,
+            "url": "https://github.com/gurpz1/home-lab"
+        },
+        {
+            "summary": "Pushed PC racing game data to an unmodified dashboard using an Arduino.",
+            "endDate": "2012-02-01",
+            "highlights": [
+                "Designed and built custom circuit to control a car instrument cluster over USB.",
+                "Modified a PC power supply to power entire setup.",
+                "Authored custom Arduino firmware converting Serial data to CANBus messages."
             ],
             "keywords": [
                 "Arduino",
@@ -94,15 +163,15 @@
                 "C++",
                 "Cars",
                 "Instrument Cluster",
-                "Embedded Systems"
+                "Embedded Systems",
+                "YouTube"
             ],
             "name": "Hacking a Car Instrument Cluster",
             "roles": [
                 "Developer"
             ],
             "startDate": "2012-01-01",
-            "type": "hardware",
-            "url": "https://youtu.be/LToDmIY6j2s"
+            "url": "https://www.youtube.com/embed/LToDmIY6j2s"
         }
     ],
     "publications": [
@@ -123,33 +192,18 @@
     "skills": [
         {
             "keywords": [
-                "HTML",
-                "Grunt",
-                "Gulp",
-                "Bower",
-                "CSS3",
-                "Javascript",
-                "AngularJS",
-                "NodeJS"
             ],
             "level": "Intermediate",
             "name": "Web Development"
         },
         {
             "keywords": [
-                "WebAPI",
-                "ExcelDNA",
-                "WPF",
-                "NUnit"
             ],
             "level": "Intermediate",
             "name": "C# Development"
         },
         {
             "keywords": [
-                "Jira",
-                "Git",
-                "SVN"
             ],
             "level": "Master",
             "name": "Software Development Cycle"
@@ -157,11 +211,6 @@
         {
 
             "keywords": [
-                "Bamboo",
-                "Jenkins",
-                "Splunk",
-                "Docker",
-                "TSDB + Grafana"
             ],
             "level": "Intermediate",
             "name": "DevOps"
@@ -169,8 +218,6 @@
         {
 
             "keywords": [
-                "pyCharm",
-                "pytest"
             ],
             "level": "Intermediate",
             "name": "Python Development"
@@ -178,21 +225,9 @@
         {
 
             "keywords": [
-                "SQL",
-                "Tableau"
             ],
             "level": "Intermediate",
             "name": "Data"
-        },
-        {
-
-            "keywords": [
-                "RHEL Administration",
-                "Windows 10",
-                "Windows Server"
-            ],
-            "level": "Master",
-            "name": "Operating Systems"
         }
     ],
     "volunteer": [
@@ -206,7 +241,7 @@
             "startDate": "2012-10-01",
             "summary": "Assisted with A Level Physics tutoring at the Bridge Academy and mentored a 17 year old throughout A Levels",
             "website": "",
-            "picture": "assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "endDate": "2014-06-01",
@@ -218,7 +253,7 @@
             "startDate": "2014-01-01",
             "summary": "Hackney school children compete with one another in a variety of interesting sports.",
             "website": "",
-            "picture": "assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "endDate": "2013-07-01",
@@ -230,7 +265,7 @@
             "startDate": "2013-01-01",
             "summary": "Networking event consisting of UBS Champions with old and new graduates.",
             "website": "",
-            "picture": "assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "endDate": "2011-06-01",
@@ -242,33 +277,58 @@
             "startDate": "2010-06-01",
             "summary": "UCL's only motorsport society",
             "website": "",
-            "picture": "assets/ucl_logo.png"
+            "picture": "ucl_logo.png"
         }
     ],
     "work": [
         {
             "company": "G-Research",
-            "endDate": "",
-            "highlights": [],
+            "endDate": "2023-02-01",
+            "highlights": [
+                "Responsible for build, test & release pipeline of the in-house High Frequency Trading platform.",
+                "Lead the engineering effort to automate research releases.",
+                "Lead the simplification of the testing pipeline by parallelising complex, long running overnight tests with an end goal of reducing an end to end 10 hour overnight sim to ~2 hours.",
+                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages and speed up commit to production time."
+            ],
+            "position": "Realtime Platform Release Engineering Manager",
+            "startDate": "2022-01-01",
+            "summary": "Responsible for Build, Test Release of High Frequency Trading Platform.",
+            "website": "http://www.gresearch.co.uk",
+            "picture": "gresearch_logo.png"
+        },
+        {
+            "company": "G-Research",
+            "endDate": "2021-12-31",
+            "highlights": [
+                "Seeded a new team responsible for operational integrity of the in-house High Frequency Trading platform.<br/>Responsibilities included (but not limited to):<ul><li> Research test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li><li>Batch compute</li></ul>",
+                "Scaled up to 7 high performing engineers with ranging experience levels.",
+                "Lead a mindset shift across the organisation by levelling up Operations Analysts to become Operations Engineers",
+                "Delivered an automated UAT framework leading to a <b>3x</b> increase in platform version upgrades.",
+                "Transitioned a hand cranked release process to one orchestrated via a Business Process Engine enabling a <b>10x</b> increase in research pipeline volume.",
+                "Provided team focus and stakeholder transparency by surfacing key insights surrounding the platform and research release processes.",
+                "Conducted active 1-to-1 career focused discussions resulting in direct reports transitioning from the Analyst Growth Framework to  Engineering Growth Framework.",
+                "Empowered engineers to take control of their learning during the organsation's transition to 'Cloud' technologies."
+            ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",
-            "summary": "Responsible for execution platform.",
+            "summary": "Responsible for operational integrity of the in-house High Frequency Trading Platform.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "assets/gresearch_logo.png"
+            "picture": "gresearch_logo.png"
         },
         {
             "company": "G-Research",
             "endDate": "2018-05-01",
             "highlights": [
-                "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS.",
-                "Automated the allocation of services across our service estate allowing for maximum use of hardware.",
+                "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS enabling business critical workflows to be monitored and debugged at a glance.",
+                "Lead the design of service allocation across global CoLo estate to maximise hardware usage",
+                "Automated the allocation of services across our service estate allowing for maximum use of hardware using linear programming techniques in python",
                 "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries."
             ],
             "position": "Technical Operations Analyst",
             "startDate": "2015-06-01",
             "summary": "Responsible for live trading environment.",
             "website": "http://www.gresearch.co.uk",
-            "picture": "assets/gresearch_logo.png"
+            "picture": "gresearch_logo.png"
         },
         {
             "company": "UBS",
@@ -284,7 +344,7 @@
             "startDate": "2013-10-01",
             "summary": "Responsible for the delivery of greenfield applications utilising many different technologies within 'Advisory and Research IT'",
             "website": "https://www.ubs.com",
-            "picture": "assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "company": "UBS",
@@ -299,7 +359,7 @@
             "startDate": "2012-09-01",
             "summary": "Graduate Training Programme. Placed within 'Platform Services - Unix Service Delivery'",
             "website": "https://www.ubs.com",
-            "picture": "assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "company": "UBS",
@@ -313,7 +373,7 @@
             "startDate": "2011-09-01",
             "summary": "6 week technical internship within 'Clearing & Settlement IT Production Services'",
             "website": "https://www.ubs.com",
-            "picture": "assets/ubs_logo.png"
+            "picture": "ubs_logo.png"
         },
         {
             "company": "Primark",
@@ -323,7 +383,7 @@
             "startDate": "2009-10-01",
             "summary": "",
             "website": "https://www.primark.com",
-            "picture": "assets/primark_logo.png"
+            "picture": "primark_logo.png"
         },
         {
             "company": "University College London",
@@ -333,7 +393,7 @@
             "startDate": "2009-09-01",
             "summary": "Guided a group of first year undergraduates who had just started their degrees to ease their transition into university.",
             "website": "https://www.ucl.ac.uk",
-            "picture": "assets/ucl_logo.png"
+            "picture": "ucl_logo.png"
         }
     ]
 }
