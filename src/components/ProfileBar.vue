@@ -1,5 +1,5 @@
 <script lang="js">
-import { defineComponent } from 'vue';
+import { defineComponent} from 'vue';
 
 import AchievementItem from './AchievementItem.vue';
 import SocialProfileIcon from '@/components/SocialProfileIcon.vue'
@@ -8,15 +8,14 @@ import EducationItem from './EducationItem.vue';
 import Card from 'primevue/card';
 import Divider from 'primevue/divider';
 
-
 export default defineComponent({
     components: {
-    Card,
-    Divider,
-    SocialProfileIcon,
-    EducationItem,
-    AchievementItem,
-},
+        Card,
+        Divider,
+        SocialProfileIcon,
+        EducationItem,
+        AchievementItem,
+    },
     props: {
         basicProfile: {type: [Object], required: true},
         educationProfile: {type: [Object], required: true},
@@ -39,6 +38,11 @@ export default defineComponent({
                     class: "pb-2 w-full"
                 }
             }
+        }
+    },
+    methods: {
+        saveToPdf() {
+            window.print()
         }
     }
 })
@@ -123,6 +127,11 @@ export default defineComponent({
                 :url="profile.url"
                 :username="profile.username"
                 />
+
+                <i class="text-3xl pi cursor-pointer pi-file-pdf"
+                    title="Save to PDF"
+                    @click="saveToPdf()">
+                </i>
             </div>
         </template>
     </Card>

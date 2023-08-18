@@ -38,7 +38,7 @@ import ProjectsCard from './components/ProjectsCard.vue';
             </template>
         </Card>
         
-        <Card class="surface-100 mt-6">
+        <Card class="surface-100 mt-6 print-page col-offset-0">
           <template #title>
             Projects
           </template>
@@ -48,7 +48,6 @@ import ProjectsCard from './components/ProjectsCard.vue';
         </Card>
       </div>
     </div>
-
 </template>
 
 <style scoped>
@@ -57,7 +56,6 @@ import ProjectsCard from './components/ProjectsCard.vue';
     flex: 0 0 auto !important;
     padding: 0.5rem !important;
     width: 40% !important;
-    height: fit-content !important;
   }
 }
 </style>

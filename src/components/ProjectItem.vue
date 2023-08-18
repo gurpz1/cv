@@ -32,7 +32,8 @@ export default defineComponent({
                 lg:flex-row
                 md:flex-row
                 sm:flex-row
-                w-full">
+                w-full
+                print-page">
         <div class="flex flex-column w-full flex-order-0">
             <div class="flex text-xl lg:text-xl md:text-lg sm:text-sm">
                 {{ this.name }}

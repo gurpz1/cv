@@ -39,7 +39,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <div class="flex flex-column w-full">
+    <div class="flex flex-column w-full print-page">
         <div class="flex flex-row align-items-center">
             <!-- Company image -->
             <div class="flex-order-1">

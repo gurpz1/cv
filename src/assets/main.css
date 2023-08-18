@@ -1,4 +1,11 @@
 body {
   font-family: var(--font-family);
   background-color: var(--blue-700);
-} 
+}
+
+@media print {
+  .print-page {
+    page-break-after: auto;
+    page-break-inside: avoid;
+  }
+}
