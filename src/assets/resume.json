@@ -324,8 +324,8 @@
             "endDate": "2018-05-01",
             "highlights": [
                 "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS enabling business critical workflows to be monitored and debugged at a glance.",
-                "Lead the design of service allocation across global CoLo estate to maximise hardware usage",
-                "Automated the allocation of services across our service estate allowing for maximum use of hardware using linear programming techniques in python",
+                "Lead the design of service allocation across global CoLo estate to maximise hardware usage.",
+                "Automated the allocation of services across our service estate allowing for maximum use of hardware using linear programming techniques in python.",
                 "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries.",
                 "<br/>",
                 "<b>Tech Stack:</b> C#, AngularJS, IIS, Python, Grafana, Splunk, Bamboo."
