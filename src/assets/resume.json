@@ -288,7 +288,7 @@
                 "Responsible for build, test & release pipeline of the in-house High Frequency Trading platform.",
                 "Lead the engineering effort to automate research releases.",
                 "Lead the simplification of the testing pipeline by parallelising complex, long running overnight tests with an end goal of reducing end to end sim time by <b>80%<b/>",
-                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages and speed up commit to production time.",
+                "Introduced a merge queue into the platform's monolithic repository to reduce build breakages and speed up commit to production time.",
                 "<br/>",
                 "<b>Tech Stack:</b> Python, C#, Blazor, FastAPI, VueJS 2, BPMN, Camunda, Prometheus, Grafana, ELK, Bamboo, Jenkins, SQL Server, Postgres."
             ],
