@@ -87,8 +87,8 @@ export default defineComponent({
             ml-5" style="flex-basis: 100%;"
         >
             <p 
-            class="mt-1
-            mb-1
+            class="mt-2
+            mb-2
             line-height-2
             text-sm
             xl:text-sm

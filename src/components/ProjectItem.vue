@@ -77,11 +77,14 @@ export default defineComponent({
                 w-full
                 h-full"
             v-if="this.hasSlots">
-            <Card>
+            <Card class="no-print">
                 <template #content>
                     <slot></slot>
                 </template>
             </Card>
+            <template class="print-only">
+                <slot></slot>
+            </template>
         </div>
     </div>
 

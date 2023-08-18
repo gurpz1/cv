@@ -38,7 +38,7 @@ import ProjectsCard from './components/ProjectsCard.vue';
             </template>
         </Card>
         
-        <Card class="surface-100 mt-6 print-page col-offset-0">
+        <Card class="surface-100 mt-6 col-offset-0">
           <template #title>
             Projects
           </template>

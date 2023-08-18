@@ -30,11 +30,18 @@ export default defineComponent({
                 preview
                 :pt="{
                     image: {
-                        class: 'project-side-card', 
+                        class: 'project-side-card no-print', 
                         style: 'mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%);'
                     }
                 }">
             </Image>
+            <a :href="this.projectsProfile[0].picture" target="_blank"><img
+                alt="Network Diagram"
+                :src="this.projectsProfile[0].picture"
+                class="border-round 
+                    h-20rem
+                    print-only"
+            /></a>
         </ProjectItem>
         
     <Divider/>
@@ -47,10 +54,11 @@ export default defineComponent({
             <iframe
                 :src="this.projectsProfile[1].url"
                 :title="this.projectsProfile[1].name"
-                class="project-side-card"
+                class="project-side-card no-print"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
             </iframe>
+            <a :href="this.projectsProfile[1].url" class="project-side-card print-only"> Link to Video </a>
     </ProjectItem>
 </template>
 

@@ -287,8 +287,10 @@
             "highlights": [
                 "Responsible for build, test & release pipeline of the in-house High Frequency Trading platform.",
                 "Lead the engineering effort to automate research releases.",
-                "Lead the simplification of the testing pipeline by parallelising complex, long running overnight tests with an end goal of reducing an end to end 10 hour overnight sim to ~2 hours.",
-                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages and speed up commit to production time."
+                "Lead the simplification of the testing pipeline by parallelising complex, long running overnight tests with an end goal of reducing end to end sim time by <b>80%<b/>",
+                "Introduced a merge queue into the platform's monolithic repository in an effort to reduce build breakages and speed up commit to production time.",
+                "<br/>",
+                "<b>Tech Stack:</b> Python, C#, Blazor, FastAPI, VueJS 2, BPMN, Camunda, Prometheus, Grafana, ELK, Bamboo, Jenkins, SQL Server, Postgres."
             ],
             "position": "Realtime Platform Release Engineering Manager",
             "startDate": "2022-01-01",
@@ -303,11 +305,13 @@
                 "Seeded a new team responsible for operational integrity of the in-house High Frequency Trading platform.<br/>Responsibilities included (but not limited to):<ul><li> Research test and release pipeline</li><li>Research release process</li><li>Overnight trading support</li><li>CoLo service provisioning</li><li>Batch compute</li></ul>",
                 "Scaled up to 7 high performing engineers with ranging experience levels.",
                 "Lead a mindset shift across the organisation by levelling up Operations Analysts to become Operations Engineers",
-                "Delivered an automated UAT framework leading to a <b>3x</b> increase in platform version upgrades.",
+                "Engineered and Delivered an automated UAT framework leading to a <b>3x</b> increase in platform version upgrades.",
                 "Transitioned a hand cranked release process to one orchestrated via a Business Process Engine enabling a <b>10x</b> increase in research pipeline volume.",
                 "Provided team focus and stakeholder transparency by surfacing key insights surrounding the platform and research release processes.",
                 "Conducted active 1-to-1 career focused discussions resulting in direct reports transitioning from the Analyst Growth Framework to  Engineering Growth Framework.",
-                "Empowered engineers to take control of their learning during the organsation's transition to 'Cloud' technologies."
+                "Empowered engineers to take control of their learning during the organisation's transition to 'Cloud' technologies.",
+                "<br/>",
+                "<b>Tech Stack:</b> Python, FastAPI, VueJS 2, C#, BPMN, Camunda, Prometheus, Grafana, Splunk, Bamboo, Jenkins, SQL Server."
             ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",
@@ -322,7 +326,9 @@
                 "Designed, developed and delivered a report monitoring portal leveraging C# WebAPI and AngularJS enabling business critical workflows to be monitored and debugged at a glance.",
                 "Lead the design of service allocation across global CoLo estate to maximise hardware usage",
                 "Automated the allocation of services across our service estate allowing for maximum use of hardware using linear programming techniques in python",
-                "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries."
+                "Took ownership of production issues, testing and releasing software as well as dealing with adhoc queries.",
+                "<br/>",
+                "<b>Tech Stack:</b> C#, AngularJS, IIS, Python, Grafana, Splunk, Bamboo."
             ],
             "position": "Technical Operations Analyst",
             "startDate": "2015-06-01",
@@ -338,7 +344,9 @@
                 "Took sole ownership of re-engineering a custom Excel add-in, written in C++ to C#, from scratch, to concurrently load data from a database via User Defined Functions.",
                 "Developed Sybase database views and stored procedures for the department’s RESTful API.",
                 "Developed ‘system resource viewer’ in order to determine correct Linux Control Group parameters for the department.",
-                "Took ownership of production issues, managing releases and dealing with ad-hoc data queries from business users."
+                "Took ownership of production issues, managing releases and dealing with ad-hoc data queries from business users.",
+                "<br/>",
+                "<b>Tech Stack:</b> Sybase, Oracle DB, AngularJS."
             ],
             "position": "Full Stack Developer",
             "startDate": "2013-10-01",
@@ -353,7 +361,9 @@
                 "Placement started with 6 weeks intensive training covering the essentials of financial markets and technical training.",
                 "Responsible for regional change projects, audit remediation, incident management, testing disaster recovery across EMEA within Unix/Linux environment and often supporting Global change projects.",
                 "Developed various BASH scripts and Google Chrome extensions to speed up work.",
-                "Gained operational working knowledge with Red Hat Enterprise Linux 5+, Solaris 8+, enterprise storage, networking and OS performance analysis."
+                "Gained operational working knowledge with Red Hat Enterprise Linux 5+, Solaris 8+, enterprise storage, networking and OS performance analysis.",
+                "<br/>",
+                "<b>Tech Stack:</b> Sybase, Oracle DB, AngularJS."
             ],
             "position": "Unix Systems Administrator",
             "startDate": "2012-09-01",
@@ -367,7 +377,9 @@
             "highlights": [
                 "Programmed, tested and released a filtering system for an existing JAVA based online application release calendar.",
                 "Created, tested and implemented segregation system for Log4j filters; thus preventing existing filters being overwritten in future releases.",
-                "Advanced knowledge in Bash scripting, HTML, JAVA and JSP technologies."
+                "Advanced knowledge in Bash scripting, HTML, JAVA and JSP technologies.",
+                "<br/>",
+                "<b>Tech Stack:</b> JAVA, JSP"
             ],
             "position": "Technology Intern",
             "startDate": "2011-09-01",

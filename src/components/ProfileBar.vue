@@ -41,7 +41,7 @@ export default defineComponent({
         }
     },
     methods: {
-        saveToPdf() {
+        sendToPrint() {
             window.print()
         }
     }
@@ -128,9 +128,9 @@ export default defineComponent({
                 :username="profile.username"
                 />
 
-                <i class="text-3xl pi cursor-pointer pi-file-pdf"
-                    title="Save to PDF"
-                    @click="saveToPdf()">
+                <i class="text-3xl pi cursor-pointer pi-print no-print"
+                    title="Print"
+                    @click="sendToPrint()">
                 </i>
             </div>
         </template>
