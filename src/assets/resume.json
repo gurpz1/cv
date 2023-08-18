@@ -290,7 +290,7 @@
                 "Lead the simplification of the testing pipeline by parallelising complex, long running overnight tests with an end goal of reducing end to end sim time by <b>80%<b/>",
                 "Introduced a merge queue into the platform's monolithic repository to reduce build breakages and speed up commit to production time.",
                 "<br/>",
-                "<b>Tech Stack:</b> Python, C#, Blazor, FastAPI, VueJS 2, BPMN, Camunda, Prometheus, Grafana, ELK, Bamboo, Jenkins, SQL Server, Postgres."
+                "<b>Tech Stack:</b> Python, C#, Blazor, FastAPI, VueJS 2, BPMN, Camunda, Prometheus, Grafana, ELK, Bamboo, Jenkins, SQL Server, Postgres, Windows, Linux, Docker, Kubernetes, NGINX."
             ],
             "position": "Realtime Platform Release Engineering Manager",
             "startDate": "2022-01-01",
@@ -311,7 +311,7 @@
                 "Conducted active 1-to-1 career focused discussions resulting in direct reports transitioning from the Analyst Growth Framework to  Engineering Growth Framework.",
                 "Empowered engineers to take control of their learning during the organisation's transition to 'Cloud' technologies.",
                 "<br/>",
-                "<b>Tech Stack:</b> Python, FastAPI, VueJS 2, C#, BPMN, Camunda, Prometheus, Grafana, Splunk, Bamboo, Jenkins, SQL Server."
+                "<b>Tech Stack:</b> Python, FastAPI, VueJS 2, C#, BPMN, Camunda, Prometheus, Grafana, Splunk, Bamboo, Jenkins, SQL Server, Windows, Linux, Docker, Kubernetes."
             ],
             "position": "Realtime Operations Manager",
             "startDate": "2018-05-01",
