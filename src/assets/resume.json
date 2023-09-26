@@ -19,7 +19,7 @@
     ],
     "awards": [],
     "basics": {
-        "email": "gurpal@sagoo.io",
+        "email": "contact@sagoo.io",
         "label": "Technologist",
         "location": {
             "address": "",
@@ -35,7 +35,7 @@
             {
                 "network": "Email",
                 "icon": "envelope",
-                "url": "mailto:gurpal@sagoo.io",
+                "url": "mailto:contact@sagoo.io",
                 "username": "Email"
             },
             {
