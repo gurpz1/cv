@@ -13,7 +13,7 @@ var htmlInjectConfig = {
   inject: {
     data: {
       previewDescription: `<meta  property="og:description" content="${resume.basics.summary}">`,
-      previewPicture: `<meta property="og:image" content="./${resume.basics.picture}">`
+      previewPicture: `<meta property="og:image" content="https://gurpalsagoo.com/${resume.basics.picture}">`
     }
   }
 }
