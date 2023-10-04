@@ -12,8 +12,8 @@ var htmlInjectConfig = {
   entry: 'src/main.js',
   inject: {
     data: {
-      previewDescription: `<meta  name="og:description" content="${resume.basics.summary}">`,
-      previewPicture: `<meta property="og:image" content="${resume.basics.picture}">`
+      previewDescription: `<meta  property="og:description" content="${resume.basics.summary}">`,
+      previewPicture: `<meta property="og:image" content="./${resume.basics.picture}">`
     }
   }
 }
